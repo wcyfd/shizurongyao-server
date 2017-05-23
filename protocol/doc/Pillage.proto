@@ -1,0 +1,46 @@
+package com.randioo.shizurongyao_server.protocol;
+
+//匹配
+message PillageRoleRequest{	
+	//是否匹配npc
+	optional bool npc = 1;
+}
+
+message PillageRoleResponse{
+	optional int32 errorCode = 1[default = 1];
+}
+
+//取消匹配
+message PillageCancelRequest{
+	
+}
+message PillageCancelResponse{
+	optional int32 errorCode=1[default = 1];
+}
+
+//显示匹配信息
+message PillageShowRequest{
+	
+}
+
+message PillageShowResponse{
+	optional int32 point = 1;
+}
+
+//定向匹配
+message PillageCompetitionNoticeRequest{
+	optional int32 competitionId = 1;
+}
+
+message PillageCompetitionNoticeResponse{
+
+}
+
+//训练模式匹配
+message PillagePracticeRequest{
+	
+}
+
+message PillagePracticeResponse{
+	
+}

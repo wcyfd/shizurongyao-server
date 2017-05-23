@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 1会长2副会长3长老4成员5 -->
+<legionPrivilege>
+	<member type="1" create="0" setting="1" join="0" agree="1" dismiss="1" exit="0" kick="1" privilege="1" fight="1" chat="1" />
+	<member type="2" create="0" setting="0" join="0" agree="1" dismiss="0" exit="1" kick="1" privilege="0" fight="1" chat="1" />
+	<member type="3" create="0" setting="0" join="0" agree="1" dismiss="0" exit="1" kick="0" privilege="0" fight="1" chat="1" />
+	<member type="4" create="0" setting="0" join="0" agree="0" dismiss="0" exit="1" kick="0" privilege="0" fight="1" chat="1" />
+	<member type="5" create="1" setting="0" join="1" agree="0" dismiss="0" exit="0" kick="0" privilege="0" fight="0" chat="0" />
+</legionPrivilege>

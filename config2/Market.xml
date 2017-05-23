@@ -1,0 +1,37 @@
+<!-- id商品类型 itemType道具类型（1元宝2银币3粮草4纸5木头6皮革7金属8英雄9兵种10计策11威望） name商品名称 itemId道具id canRefresh能否刷新 singleBuyNum单次购买数量 dayBuyCount单日购买最大次数（-1为无限制） payMethod购买方式(1银币2金币3rmb) cost购买单价 startTime该物品的出现时间（只对非刷新物品有效）bindId首充绑定的id -->						
+<market>						
+		<item id="311010" name="一把元宝" itemType="1" itemId="311010" canRefresh="1" singleBuyNum="60" dayBuyCount="-1" payMethod="3" cost="6" startTime="1" bindId="0"/>				
+		<item id="311011" name="一把元宝" itemType="1" itemId="311011" canRefresh="0" singleBuyNum="120" dayBuyCount="1" payMethod="3" cost="6" startTime="1" bindId="311010"/>				
+		<item id="311020" name="一袋元宝" itemType="1" itemId="311020" canRefresh="1" singleBuyNum="300" dayBuyCount="-1" payMethod="3" cost="30" startTime="1" bindId="0"/>				
+		<item id="311021" name="一袋元宝" itemType="1" itemId="311021" canRefresh="0" singleBuyNum="600" dayBuyCount="1" payMethod="3" cost="30" startTime="1" bindId="311020"/>				
+		<item id="311030" name="一箱元宝" itemType="1" itemId="311030" canRefresh="1" singleBuyNum="680" dayBuyCount="-1" payMethod="3" cost="68" startTime="1" bindId="0"/>				
+		<item id="311031" name="一箱元宝" itemType="1" itemId="311031" canRefresh="0" singleBuyNum="1360" dayBuyCount="1" payMethod="3" cost="68" startTime="1" bindId="311030"/>				
+		<item id="311040" name="一大箱元宝" itemType="1" itemId="311040" canRefresh="1" singleBuyNum="1280" dayBuyCount="-1" payMethod="3" cost="128" startTime="1" bindId="0"/>				
+		<item id="311041" name="一大箱元宝" itemType="1" itemId="311041" canRefresh="0" singleBuyNum="2560" dayBuyCount="1" payMethod="3" cost="128" startTime="1" bindId="311040"/>				
+		<item id="311050" name="一车元宝" itemType="1" itemId="311050" canRefresh="1" singleBuyNum="3280" dayBuyCount="-1" payMethod="3" cost="328" startTime="1" bindId="0"/>				
+		<item id="311051" name="一车元宝" itemType="1" itemId="311051" canRefresh="0" singleBuyNum="6560" dayBuyCount="1" payMethod="3" cost="328" startTime="1" bindId="311050"/>				
+		<item id="311060" name="一堆元宝" itemType="1" itemId="311060" canRefresh="1" singleBuyNum="6480" dayBuyCount="-1" payMethod="3" cost="648" startTime="1" bindId="0"/>				
+		<item id="311061" name="一堆元宝" itemType="1" itemId="311061" canRefresh="0" singleBuyNum="12960" dayBuyCount="1" payMethod="3" cost="648" startTime="1" bindId="311060"/>				
+		<item id="312010" name="一袋银币" itemType="2" itemId="312010" canRefresh="1" singleBuyNum="200" dayBuyCount="-1" payMethod="2" cost="20" startTime="1" bindId="0"/>				
+		<item id="312020" name="一车银币" itemType="2" itemId="312020" canRefresh="1" singleBuyNum="2000" dayBuyCount="-1" payMethod="2" cost="170" startTime="1" bindId="0"/>				
+		<item id="312030" name="一堆银币" itemType="2" itemId="312030" canRefresh="1" singleBuyNum="20000" dayBuyCount="-1" payMethod="2" cost="1800" startTime="1" bindId="0"/>				
+		<item id="312040" name="一袋粮草" itemType="3" itemId="312040" canRefresh="1" singleBuyNum="200" dayBuyCount="-1" payMethod="2" cost="20" startTime="1" bindId="0"/>				
+		<item id="312050" name="一车粮草" itemType="3" itemId="312050" canRefresh="1" singleBuyNum="2000" dayBuyCount="-1" payMethod="2" cost="170" startTime="1" bindId="0"/>				
+		<item id="312060" name="一堆粮草" itemType="3" itemId="312060" canRefresh="1" singleBuyNum="20000" dayBuyCount="-1" payMethod="2" cost="1800" startTime="1" bindId="0"/>				
+		<item id="313010" name="生纸" itemType="4" itemId="31001" canRefresh="1" singleBuyNum="10" dayBuyCount="2" payMethod="1" cost="800" startTime="1" bindId="0"/>				
+		<item id="313020" name="硬黄纸" itemType="4" itemId="31002" canRefresh="1" singleBuyNum="10" dayBuyCount="2" payMethod="1" cost="800" startTime="1" bindId="0"/>				
+		<item id="313030" name="鹿纹纸" itemType="4" itemId="31003" canRefresh="1" singleBuyNum="10" dayBuyCount="2" payMethod="1" cost="800" startTime="1" bindId="0"/>				
+		<item id="313040" name="卧龙笺" itemType="4" itemId="31004" canRefresh="1" singleBuyNum="10" dayBuyCount="2" payMethod="1" cost="800" startTime="1" bindId="0"/>				
+		<item id="313050" name="梧桐" itemType="5" itemId="31005" canRefresh="1" singleBuyNum="5" dayBuyCount="2" payMethod="1" cost="800" startTime="1" bindId="0"/>				
+		<item id="313060" name="铁木" itemType="5" itemId="31006" canRefresh="1" singleBuyNum="5" dayBuyCount="2" payMethod="1" cost="800" startTime="1" bindId="0"/>				
+		<item id="313070" name="檀木" itemType="5" itemId="31007" canRefresh="1" singleBuyNum="5" dayBuyCount="2" payMethod="1" cost="800" startTime="1" bindId="0"/>				
+		<item id="313080" name="千年木" itemType="5" itemId="31008" canRefresh="1" singleBuyNum="5" dayBuyCount="2" payMethod="1" cost="800" startTime="1" bindId="0"/>				
+		<item id="313090" name="兽皮" itemType="6" itemId="31009" canRefresh="1" singleBuyNum="2" dayBuyCount="2" payMethod="1" cost="640" startTime="1" bindId="0"/>				
+		<item id="313100" name="狼皮" itemType="6" itemId="31010" canRefresh="1" singleBuyNum="2" dayBuyCount="2" payMethod="1" cost="640" startTime="1" bindId="0"/>				
+		<item id="313110" name="白虎皮" itemType="6" itemId="31011" canRefresh="1" singleBuyNum="2" dayBuyCount="2" payMethod="1" cost="640" startTime="1" bindId="0"/>				
+		<item id="313120" name="貂皮" itemType="6" itemId="31012" canRefresh="1" singleBuyNum="2" dayBuyCount="2" payMethod="1" cost="640" startTime="1" bindId="0"/>				
+		<item id="313130" name="红铜" itemType="7" itemId="31013" canRefresh="1" singleBuyNum="1" dayBuyCount="2" payMethod="1" cost="640" startTime="1" bindId="0"/>				
+		<item id="313140" name="锡锭" itemType="7" itemId="31014" canRefresh="1" singleBuyNum="1" dayBuyCount="2" payMethod="1" cost="640" startTime="1" bindId="0"/>				
+		<item id="313150" name="白银" itemType="7" itemId="31015" canRefresh="1" singleBuyNum="1" dayBuyCount="2" payMethod="1" cost="640" startTime="1" bindId="0"/>				
+		<item id="313160" name="赤金" itemType="7" itemId="31016" canRefresh="1" singleBuyNum="1" dayBuyCount="2" payMethod="1" cost="640" startTime="1" bindId="0"/>				
+</market>						

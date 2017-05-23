@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.randioo.shizurongyao_server.dao.PointRankDao">
+	<!-- select -->
+	<select id="selectPointRank" resultType="PointRank"> 		
+ 		SELECT 
+		  role.roleId as roleId,
+		  role.name as roleName,
+		  role.listStr as listStr,
+		  role.point as point,
+		  role.useCardsId as useCardsId,
+		  role.winCount
+		FROM
+		  role 
+		  LEFT JOIN clanmember 
+		    ON role.roleId = clanmember.role_id 
+		WHERE clanmember.clan_id = #{clanId} 
+		ORDER BY role.point DESC 
+		LIMIT #{rankCount} 
+	</select>
+</mapper>

@@ -1,0 +1,89 @@
+package com.randioo.shizurongyao_server.protocol;
+import "Login.proto";
+import "Match.proto";
+import "Fight.proto";
+import "Pillage.proto";
+import "Card.proto";
+import "Ping.proto";
+import "Market.proto";
+import "Role.proto";
+import "War.proto";
+import "Clan.proto";
+import "Gm.proto";
+import "Rank.proto";
+import "Race.proto";
+
+message SCMessage{
+	optional LoginCheckAccountResponse LoginCheckAccountResponse= 1;
+	optional LoginCreateRoleResponse LoginCreateRoleResponse= 2;
+	optional LoginGetRoleDataResponse LoginGetRoleDataResponse= 3;
+	
+	optional SCMatchComplete SCMatchComplete = 4;
+	optional SCMatchCancel SCMatchCancel = 5;
+
+	optional FightClientReadyResponse FightClientReadyResponse= 6;
+	optional SCFightLoadResource SCFightLoadResource= 7;
+	optional SCFightStartGame SCFightStartGame = 8;
+	optional FightGameActionResponse FightGameActionResponse = 9;
+	optional FightGameOverResponse FightGameOverResponse = 10;
+	optional SCFightKeyFrame SCFightKeyFrame = 11;
+	optional FightGetGameAwardResponse FightGetGameAwardResponse = 12;
+	optional FightCountDownResponse FightCountDownResponse = 13;
+	optional SCFightCountDown SCFightCountDown = 14;
+	optional FightLoadResourceProgressResponse FightLoadResourceProgressResponse = 15;
+	optional SCFightLoadResourceProgress SCFightLoadResourceProgress = 16;
+	optional SCFightGameResult SCFightGameResult = 17;
+
+	optional PillageRoleResponse PillageRoleResponse = 18;
+	optional PillageCancelResponse PillageCancelResponse = 19;
+	optional PillageShowResponse PillageShowResponse = 20;
+	optional PillageCompetitionNoticeResponse PillageCompetitionNoticeResponse= 21;
+	optional PillagePracticeResponse PillagePracticeResponse = 22;
+
+	optional CardGetCardsInfoResponse CardGetCardsInfoResponse = 23;
+	optional CardEditCardListResponse CardEditCardListResponse = 24;
+	optional CardLvUpResponse CardLvUpResponse = 25;
+	optional CardChooseUseCardListResponse CardChooseUseCardListResponse = 26;
+	optional CardChangeMainCardResponse CardChangeMainCardResponse = 27;
+
+	optional PingResponse PingResponse = 28;
+	
+	//显示商店信息
+	optional MarketShowResponse MarketShowResponse = 29;
+	//购买商品
+	optional MarketBuyMarketItemResponse MarketBuyMarketItemResponse = 30;
+	//手动刷新
+	optional MarketArtificialRefreshResponse MarketArtificialRefreshResponse = 31;
+	
+	
+	optional SCRoleMoney SCRoleMoney = 32;//添加金币	
+	optional SCRoleGold SCRoleGold = 33;//添加银币	
+	optional RoleInfoSelectResponse RoleInfoSelectResponse = 34;//查询用户信息	
+	optional SCRolePoint SCRolePoint = 35;//增加积分
+	optional RoleRenameResponse RoleRenameResponse  = 36;//玩家重命名
+	
+	//显示章节信息
+	optional WarShowWarChapterResponse WarShowWarChapterResponse = 37;
+	//显示建筑信息
+	optional WarShowWarBuildResponse WarShowWarBuildResponse = 38;
+	//攻打建筑
+	optional WarMarchResponse WarMarchResponse = 39;
+
+	optional WarGetChapterAwardResponse WarGetChapterAwardResponse = 40;
+
+
+	//部落
+	optional ClanShowAllClanResponse ClanShowAllClanResponse = 41;//显示所有部落信息
+
+	optional GmCmdResponse GmCmdResponse = 42;
+	
+	
+	optional RankShowClanPointRankResponse RankShowClanPointRankResponse = 43;
+
+    optional GetRaceRoleNumResponse GetRaceRoleNumResponse = 44;//获取参赛人数
+    optional RaceSignUpResponse RaceSignUpResponse = 45;//报名
+    optional RaceCancelSignUpResponse RaceCancelSignUpResponse = 46;//取消报名
+    optional SCRaceEnter SCRaceEnter = 47;//推送进场
+    optional SCRaceDsc SCRaceDsc = 48;// 推送比赛状态
+    optional RaceDescResponse RaceDescResponse = 49;//比赛状态
+} // 49

@@ -1,0 +1,10 @@
+package com.randioo.shizurongyao_server.protocol;
+import "Entity.proto";
+
+message ClanShowAllClanRequest{
+	
+}
+
+message ClanShowAllClanResponse{
+	repeated ClanData clanData = 1;
+}

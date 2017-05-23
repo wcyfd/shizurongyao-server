@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- <typeAliases>
+		<typeAlias alias="Role" type="com.randioo.shizurongyao_server.entity.bo.Role" />
+		<typeAlias alias="Card" type="com.randioo.shizurongyao_server.entity.bo.Card" />
+		<typeAlias alias="StoreVideo" type="com.randioo.shizurongyao_server.entity.bo.StoreVideo" />
+		<typeAlias alias="WarBuild" type="com.randioo.shizurongyao_server.entity.bo.WarBuild" />
+		<typeAlias alias="WarChapter" type="com.randioo.shizurongyao_server.entity.bo.WarChapter" />
+	</typeAliases>
+	<mappers>
+		<mapper resource="db/Role.xml" />
+		<mapper resource="db/Card.xml" />
+		<mapper resource="db/StoreVideo.xml" />
+		<mapper resource="db/WarBuild.xml" />
+		<mapper resource="db/WarChapter.xml" />
+	</mappers> -->
+</configuration>

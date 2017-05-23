@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>									
+<!-- 1目标等级 2栏位 3兵种 4计策 5参与武将的卡片奖励（0白色1蓝色2橙色3紫色）6容量 7收益 8建筑加成 9解锁建筑 10获得卡片 11解锁功能-->									
+<!-- event -->									
+<!-- type="1" data="升级后目标等级" -->									
+<!-- type="3" data="升级后解锁的兵种id，兵种id" -->									
+<!-- type="4" data="升级后解锁的计策id，计策id" -->									
+<!-- type="5" data="升级后奖励的武将质量,奖励数量,武将质量,奖励数量" -->									
+<!-- type="9" data="升级后解锁的建筑类型" -->									
+<!-- type="10" data="获得卡片" -->									
+<!-- type="11" data="解锁功能（解锁功能的类型;data1,data2,data3,|解锁功能的类型;data1,data2,data3,|解锁功能的类型;data1,data2,data3,|）" -->									
+<!-- type="12" data="引导id" -->									
+<!-- type="13" data="酒馆地区id,酒馆地区id," -->									
+<!-- attribute -->									
+<!-- type="2" data="该等级的栏位总数量" -->									
+<!-- type="6" data="该等级的资源类型,总容量" -->									
+<!-- type="7" data="该等级的资源类型,总收益" -->									
+<!-- type="8" data="该等级的战斗中建筑属性1,主城hp,单次伤害，攻击速度，攻击距离，2,箭塔hp，单次伤害，攻击速度，攻击距离" -->									
+<!-- 字段类型说明,都为升级下一级需要的属性 trade商才 learn学识 force体魄 food所需粮草 money所需银币 needTime所需时间(秒) 									
+	heroCount所需武将数量 -->								
+<builds>									
+	<build buildType="1" name="皇宫" uiName="maincity">								
+		<lv lv="0" heroCount="0" trade="0" learn="0" force="0" food="0"							
+			money="0" needTime="0">						
+			<event type="1" data="1" />						
+			<attribute type="8" data="1,2400,50,1000,9,2,1400,50,800,9" />						
+			<event type="9" data="2,4" />						
+		</lv>							
+		<lv lv="1" heroCount="1" trade="55" learn="0" force="0" food="0"							
+			money="2000" needTime="6031">						
+			<event type="1" data="2" />						
+			<event type="5" data="0,0,1,0,2,0,3,3" />						
+			<attribute type="8" data="1,2400,50,1000,9,2,1400,50,800,9" />						
+			<event type="9" data="3,5,6" />						
+		</lv>							
+		<lv lv="2" heroCount="1" trade="60" learn="0" force="0" food="0"							
+			money="3000" needTime="8041">						
+			<event type="1" data="3" />						
+			<event type="5" data="0,0,1,0,2,0,3,4" />						
+			<attribute type="8" data="1,2568,53,1000,9,2,1512,54,800,9" />						
+		</lv>							
+		<lv lv="3" heroCount="1" trade="66" learn="0" force="0" food="0"							
+			money="4000" needTime="13066">						
+			<event type="1" data="4" />						
+			<event type="5" data="0,0,1,0,2,0,3,6" />						
+			<attribute type="8" data="1,2736,57,1000,9,2,1624,58,800,9" />						
+		</lv>							
+		<lv lv="4" heroCount="2" trade="146" learn="0" force="0" food="0"							
+			money="20000" needTime="18091">						
+			<event type="1" data="5" />						
+			<event type="5" data="0,0,1,0,2,0,3,8" />						
+			<attribute type="8" data="1,2904,60,1000,9,2,1750,62,800,9" />						
+		</lv>							
+		<lv lv="5" heroCount="2" trade="160" learn="0" force="0" food="0"							
+			money="50000" needTime="23228">						
+			<event type="1" data="6" />						
+			<event type="5" data="0,0,1,0,2,0,3,10" />						
+			<attribute type="8" data="1,3096,64,1000,9,2,1890,67,800,9" />						
+		</lv>							
+		<lv lv="6" heroCount="2" trade="176" learn="0" force="0" food="0"							
+			money="60000" needTime="28365">						
+			<event type="1" data="7" />						
+			<event type="5" data="0,0,1,0,2,0,3,12" />						
+			<attribute type="8" data="1,3312,69,1000,9,2,2030,72,800,9" />						
+		</lv>							
+		<lv lv="7" heroCount="3" trade="291" learn="0" force="0" food="0"							
+			money="100000" needTime="33501">						
+			<event type="1" data="8" />						
+			<event type="5" data="0,0,1,0,2,0,3,15" />						
+			<attribute type="8" data="1,3528,73,1000,9,2,2184,78,800,9" />						
+		</lv>							
+		<lv lv="8" heroCount="3" trade="321" learn="0" force="0" food="0"							
+			money="120000" needTime="36851">						
+			<event type="1" data="9" />						
+			<event type="5" data="0,0,1,0,2,0,3,16" />						
+			<attribute type="8" data="1,3768,78,1000,9,2,2352,84,800,9" />						
+		</lv>							
+		<lv lv="9" heroCount="3" trade="351" learn="0" force="0" food="0"							
+			money="200000" needTime="40202">						
+			<event type="1" data="10" />						
+			<event type="5" data="0,0,1,0,2,0,3,17" />						
+			<attribute type="8" data="1,4008,83,1000,9,2,2534,90,800,9" />						
+		</lv>							
+		<lv lv="10" heroCount="3" trade="387" learn="0" force="0" food="0"							
+			money="380000" needTime="60302">						
+			<event type="1" data="11" />						
+			<event type="5" data="0,0,1,0,2,0,3,26" />						
+			<attribute type="8" data="1,4392,91,1000,9,2,2786,99,800,9" />						
+		</lv>							
+		<lv lv="11" heroCount="3" trade="426" learn="0" force="0" food="0"							
+			money="500000" needTime="70352">						
+			<event type="1" data="12" />						
+			<event type="5" data="0,0,1,0,2,0,3,30" />						
+			<attribute type="8" data="1,4824,100,1000,9,2,3052,109,800,9" />						
+		</lv>							
+		<lv lv="12" heroCount="0" trade="0" learn="0" force="0" food="0"							
+			money="0" needTime="0">						
+			<attribute type="8" data="1,5304,110,1000,9,2,3346,119,800,9" />						
+		</lv>							
+	</build>								
+	<build buildType="2" name="酒馆" uiName="pub">								
+		<lv lv="0" heroCount="0" trade="0" learn="0" force="0" food="0"							
+			money="0" needTime="0">						
+			<event type="1" data="1" />						
+			<event type="13" data="1" />						
+		</lv>							
+		<lv lv="1" heroCount="1" trade="0" learn="55" force="0" food="0"							
+			money="400" needTime="4825">						
+			<event type="1" data="2" />						
+			<event type="5" data="0,0,1,0,2,0,3,3" />						
+			<event type="13" data="2,3" />						
+		</lv>							
+		<lv lv="2" heroCount="1" trade="0" learn="60" force="0" food="0"							
+			money="800" needTime="6433">						
+			<event type="1" data="3" />						
+			<event type="5" data="0,0,1,0,2,0,3,4" />						
+			<event type="13" data="4,5" />						
+		</lv>							
+		<lv lv="3" heroCount="1" trade="0" learn="66" force="0" food="0"							
+			money="1000" needTime="10453">						
+			<event type="1" data="4" />						
+			<event type="5" data="0,0,1,0,2,0,3,6" />						
+			<event type="13" data="6,7" />						
+		</lv>							
+		<lv lv="4" heroCount="2" trade="0" learn="146" force="0" food="0"							
+			money="6000" needTime="14473">						
+			<event type="1" data="5" />						
+			<event type="5" data="0,0,1,0,2,0,3,8" />						
+			<event type="13" data="8,9" />						
+		</lv>							
+		<lv lv="5" heroCount="2" trade="0" learn="160" force="0" food="0"							
+			money="10000" needTime="18582">						
+			<event type="1" data="6" />						
+			<event type="5" data="0,0,1,0,2,0,3,10" />						
+			<event type="13" data="10,11" />						
+		</lv>							
+		<lv lv="6" heroCount="2" trade="0" learn="176" force="0" food="0"							
+			money="14000" needTime="22692">						
+			<event type="1" data="7" />						
+			<event type="5" data="0,0,1,0,2,0,3,12" />						
+			<event type="13" data="12,13" />						
+		</lv>							
+		<lv lv="7" heroCount="3" trade="0" learn="291" force="0" food="0"							
+			money="24000" needTime="26801">						
+			<event type="1" data="8" />						
+			<event type="5" data="0,0,1,0,2,0,3,15" />						
+			<event type="13" data="14,15" />						
+		</lv>							
+		<lv lv="8" heroCount="3" trade="0" learn="321" force="0" food="0"							
+			money="28000" needTime="29481">						
+			<event type="1" data="9" />						
+			<event type="5" data="0,0,1,0,2,0,3,16" />						
+			<event type="13" data="16,17" />						
+		</lv>							
+		<lv lv="9" heroCount="3" trade="0" learn="351" force="0" food="0"							
+			money="40000" needTime="32161">						
+			<event type="1" data="10" />						
+			<event type="5" data="0,0,1,0,2,0,3,17" />						
+			<event type="13" data="18,19" />						
+		</lv>							
+		<lv lv="10" heroCount="3" trade="0" learn="387" force="0" food="0"							
+			money="80000" needTime="48242">						
+			<event type="1" data="11" />						
+			<event type="5" data="0,0,1,0,2,0,3,26" />						
+			<event type="13" data="20" />						
+		</lv>							
+		<lv lv="11" heroCount="3" trade="0" learn="426" force="0" food="0"							
+			money="140000" needTime="56282">						
+			<event type="1" data="12" />						
+			<event type="5" data="0,0,1,0,2,0,3,30" />						
+			<event type="13" data="21" />						
+		</lv>							
+		<lv lv="12" heroCount="0" trade="0" learn="0" force="0" food="0"							
+			money="0" needTime="0">						
+		</lv>							
+	</build>								
+	<build buildType="3" name="军幕府" uiName="research">								
+		<lv lv="0" heroCount="0" trade="0" learn="0" force="0" food="0"							
+			money="0" needTime="0">						
+			<event type="1" data="1" />						
+			<event type="4" data="16309" />						
+		</lv>							
+		<lv lv="1" heroCount="1" trade="0" learn="55" force="0" food="0"							
+			money="400" needTime="4825">						
+			<event type="1" data="2" />						
+			<event type="3" data="16218" />						
+			<event type="4" data="16305" />						
+			<event type="5" data="0,0,1,0,2,0,3,3" />						
+		</lv>							
+		<lv lv="2" heroCount="1" trade="0" learn="60" force="0" food="0"							
+			money="800" needTime="6433">						
+			<event type="1" data="3" />						
+			<event type="3" data="16216" />						
+			<event type="4" data="16303" />						
+			<event type="5" data="0,0,1,0,2,0,3,4" />						
+		</lv>							
+		<lv lv="3" heroCount="1" trade="0" learn="66" force="0" food="0"							
+			money="1000" needTime="10453">						
+			<event type="1" data="4" />						
+			<event type="3" data="16222" />						
+			<event type="4" data="16320" />						
+			<event type="5" data="0,0,1,0,2,0,3,6" />						
+		</lv>							
+		<lv lv="4" heroCount="2" trade="0" learn="146" force="0" food="0"							
+			money="6000" needTime="14473">						
+			<event type="1" data="5" />						
+			<event type="3" data="16211" />						
+			<event type="4" data="16301,16319" />						
+			<event type="5" data="0,0,1,0,2,0,3,8" />						
+		</lv>							
+		<lv lv="5" heroCount="2" trade="0" learn="160" force="0" food="0"							
+			money="10000" needTime="18582">						
+			<event type="1" data="6" />						
+			<event type="3" data="16217" />						
+			<event type="4" data="16304,16318" />						
+			<event type="5" data="0,0,1,0,2,0,3,10" />						
+		</lv>							
+		<lv lv="6" heroCount="2" trade="0" learn="176" force="0" food="0"							
+			money="14000" needTime="22692">						
+			<event type="1" data="7" />						
+			<event type="3" data="16210" />						
+			<event type="4" data="16312" />						
+			<event type="5" data="0,0,1,0,2,0,3,12" />						
+		</lv>							
+		<lv lv="7" heroCount="3" trade="0" learn="291" force="0" food="0"							
+			money="24000" needTime="26801">						
+			<event type="1" data="8" />						
+			<event type="3" data="16212" />						
+			<event type="4" data="16306,16308" />						
+			<event type="5" data="0,0,1,0,2,0,3,15" />						
+		</lv>							
+		<lv lv="8" heroCount="3" trade="0" learn="321" force="0" food="0"							
+			money="28000" needTime="29481">						
+			<event type="1" data="9" />						
+			<event type="3" data="16213" />						
+			<event type="4" data="16316" />						
+			<event type="5" data="0,0,1,0,2,0,3,16" />						
+		</lv>							
+		<lv lv="9" heroCount="3" trade="0" learn="351" force="0" food="0"							
+			money="40000" needTime="32161">						
+			<event type="1" data="10" />						
+			<event type="3" data="16209" />						
+			<event type="4" data="16310,16311" />						
+			<event type="5" data="0,0,1,0,2,0,3,17" />						
+		</lv>							
+		<lv lv="10" heroCount="3" trade="0" learn="387" force="0" food="0"							
+			money="80000" needTime="48242">						
+			<event type="1" data="11" />						
+			<event type="3" data="16219" />						
+			<event type="4" data="16313,16314" />						
+			<event type="5" data="0,0,1,0,2,0,3,26" />						
+		</lv>							
+		<lv lv="11" heroCount="3" trade="0" learn="426" force="0" food="0"							
+			money="140000" needTime="56282">						
+			<event type="1" data="12" />						
+			<event type="4" data="16315,16317" />						
+			<event type="5" data="0,0,1,0,2,0,3,30" />						
+		</lv>							
+		<lv lv="12" heroCount="0" trade="0" learn="0" force="0" food="0"							
+			money="0" needTime="0">						
+		</lv>							
+	</build>								
+	<build buildType="4" name="仓库" uiName="warehouse">								
+		<lv lv="0" heroCount="0" trade="0" learn="0" force="0" food="0"							
+			money="0" needTime="0">						
+			<event type="1" data="1" />						
+		</lv>							
+		<lv lv="1" heroCount="1" trade="55" learn="0" force="0" food="0"							
+			money="400" needTime="4825">						
+			<event type="1" data="2" />						
+			<event type="5" data="0,0,1,0,2,0,3,3" />						
+			<attribute type="6" data="2,5000,3,5000" />						
+		</lv>							
+		<lv lv="2" heroCount="1" trade="60" learn="0" force="0" food="0"							
+			money="800" needTime="6433">						
+			<event type="1" data="3" />						
+			<event type="5" data="0,0,1,0,2,0,3,4" />						
+			<attribute type="6" data="2,9000,3,9000" />						
+		</lv>							
+		<lv lv="3" heroCount="1" trade="66" learn="0" force="0" food="0"							
+			money="1000" needTime="10453">						
+			<event type="1" data="4" />						
+			<event type="5" data="0,0,1,0,2,0,3,6" />						
+			<attribute type="6" data="2,120000,3,120000" />						
+		</lv>							
+		<lv lv="4" heroCount="2" trade="146" learn="0" force="0" food="0"							
+			money="6000" needTime="14473">						
+			<event type="1" data="5" />						
+			<event type="5" data="0,0,1,0,2,0,3,8" />						
+			<attribute type="6" data="2,40000,3,40000" />						
+		</lv>							
+		<lv lv="5" heroCount="2" trade="160" learn="0" force="0" food="0"							
+			money="10000" needTime="18582">						
+			<event type="1" data="6" />						
+			<event type="5" data="0,0,1,0,2,0,3,10" />						
+			<attribute type="6" data="2,80000,3,80000" />						
+		</lv>							
+		<lv lv="6" heroCount="2" trade="176" learn="0" force="0" food="0"							
+			money="14000" needTime="22692">						
+			<event type="1" data="7" />						
+			<event type="5" data="0,0,1,0,2,0,3,12" />						
+			<attribute type="6" data="2,100000,3,100000" />						
+		</lv>							
+		<lv lv="7" heroCount="3" trade="291" learn="0" force="0" food="0"							
+			money="24000" needTime="26801">						
+			<event type="1" data="8" />						
+			<event type="5" data="0,0,1,0,2,0,3,15" />						
+			<attribute type="6" data="2,150000,3,150000" />						
+		</lv>							
+		<lv lv="8" heroCount="3" trade="321" learn="0" force="0" food="0"							
+			money="28000" needTime="29481">						
+			<event type="1" data="9" />						
+			<event type="5" data="0,0,1,0,2,0,3,16" />						
+			<attribute type="6" data="2,200000,3,200000" />						
+		</lv>							
+		<lv lv="9" heroCount="3" trade="351" learn="0" force="0" food="0"							
+			money="40000" needTime="32161">						
+			<event type="1" data="10" />						
+			<event type="5" data="0,0,1,0,2,0,3,17" />						
+			<attribute type="6" data="2,300000,3,300000" />						
+		</lv>							
+		<lv lv="10" heroCount="3" trade="387" learn="0" force="0" food="0"							
+			money="80000" needTime="48242">						
+			<event type="1" data="11" />						
+			<event type="5" data="0,0,1,0,2,0,3,26" />						
+			<attribute type="6" data="2,550000,3,550000" />						
+		</lv>							
+		<lv lv="11" heroCount="3" trade="426" learn="0" force="0" food="0"							
+			money="140000" needTime="56282">						
+			<event type="1" data="12" />						
+			<event type="5" data="0,0,1,0,2,0,3,30" />						
+			<attribute type="6" data="2,800000,3,800000" />						
+		</lv>							
+		<lv lv="12" heroCount="0" trade="0" learn="0" force="0" food="0"							
+			money="0" needTime="0">						
+			<attribute type="6" data="2,1000000,3,1000000" />						
+		</lv>							
+	</build>								
+	<build buildType="5" name="民居" uiName="uptown">								
+		<lv lv="0" heroCount="0" trade="0" learn="0" force="0" food="0"							
+			money="0" needTime="0">						
+			<event type="1" data="1" />						
+		</lv>							
+		<lv lv="1" heroCount="1" trade="0" learn="0" force="55" food="0"							
+			money="400" needTime="4825">						
+			<event type="1" data="2" />						
+			<event type="5" data="0,0,1,0,2,0,3,3" />						
+			<attribute type="7" data="2,150" />						
+		</lv>							
+		<lv lv="2" heroCount="1" trade="0" learn="0" force="60" food="0"							
+			money="800" needTime="6433">						
+			<event type="1" data="3" />						
+			<event type="5" data="0,0,1,0,2,0,3,4" />						
+			<attribute type="7" data="2,200" />						
+		</lv>							
+		<lv lv="3" heroCount="1" trade="0" learn="0" force="66" food="0"							
+			money="1000" needTime="10453">						
+			<event type="1" data="4" />						
+			<event type="5" data="0,0,1,0,2,0,3,6" />						
+			<attribute type="7" data="2,240" />						
+		</lv>							
+		<lv lv="4" heroCount="2" trade="0" learn="0" force="146" food="0"							
+			money="6000" needTime="14473">						
+			<event type="1" data="5" />						
+			<event type="5" data="0,0,1,0,2,0,3,8" />						
+			<attribute type="7" data="2,280" />						
+		</lv>							
+		<lv lv="5" heroCount="2" trade="0" learn="0" force="160" food="0"							
+			money="10000" needTime="18582">						
+			<event type="1" data="6" />						
+			<event type="5" data="0,0,1,0,2,0,3,10" />						
+			<attribute type="7" data="2,320" />						
+		</lv>							
+		<lv lv="6" heroCount="2" trade="0" learn="0" force="176" food="0"							
+			money="14000" needTime="22692">						
+			<event type="1" data="7" />						
+			<event type="5" data="0,0,1,0,2,0,3,12" />						
+			<attribute type="7" data="2,350" />						
+		</lv>							
+		<lv lv="7" heroCount="3" trade="0" learn="0" force="291" food="0"							
+			money="24000" needTime="26801">						
+			<event type="1" data="8" />						
+			<event type="5" data="0,0,1,0,2,0,3,15" />						
+			<attribute type="7" data="2,400" />						
+		</lv>							
+		<lv lv="8" heroCount="3" trade="0" learn="0" force="321" food="0"							
+			money="28000" needTime="29481">						
+			<event type="1" data="9" />						
+			<event type="5" data="0,0,1,0,2,0,3,16" />						
+			<attribute type="7" data="2,450" />						
+		</lv>							
+		<lv lv="9" heroCount="3" trade="0" learn="0" force="351" food="0"							
+			money="40000" needTime="32161">						
+			<event type="1" data="10" />						
+			<event type="5" data="0,0,1,0,2,0,3,17" />						
+			<attribute type="7" data="2,500" />						
+		</lv>							
+		<lv lv="10" heroCount="3" trade="0" learn="0" force="387" food="0"							
+			money="80000" needTime="48242">						
+			<event type="1" data="11" />						
+			<event type="5" data="0,0,1,0,2,0,3,26" />						
+			<attribute type="7" data="2,550" />						
+		</lv>							
+		<lv lv="11" heroCount="3" trade="0" learn="0" force="426" food="0"							
+			money="140000" needTime="56282">						
+			<event type="1" data="12" />						
+			<event type="5" data="0,0,1,0,2,0,3,30" />						
+			<attribute type="7" data="2,600" />						
+		</lv>							
+		<lv lv="12" heroCount="0" trade="0" learn="0" force="0" food="0"							
+			money="0" needTime="0">						
+			<attribute type="7" data="2,700" />						
+		</lv>							
+	</build>								
+	<build buildType="6" name="农田" uiName="farmland">								
+		<lv lv="0" heroCount="0" trade="0" learn="0" force="0" food="0"							
+			money="0" needTime="0">						
+			<event type="1" data="1" />						
+		</lv>							
+		<lv lv="1" heroCount="1" trade="0" learn="0" force="55" food="0"							
+			money="400" needTime="4825">						
+			<event type="1" data="2" />						
+			<event type="5" data="0,0,1,0,2,0,3,3" />						
+			<attribute type="7" data="3,150" />						
+		</lv>							
+		<lv lv="2" heroCount="1" trade="0" learn="0" force="60" food="0"							
+			money="800" needTime="6433">						
+			<event type="1" data="3" />						
+			<event type="5" data="0,0,1,0,2,0,3,4" />						
+			<attribute type="7" data="3,200" />						
+		</lv>							
+		<lv lv="3" heroCount="1" trade="0" learn="0" force="66" food="0"							
+			money="1000" needTime="10453">						
+			<event type="1" data="4" />						
+			<event type="5" data="0,0,1,0,2,0,3,6" />						
+			<attribute type="7" data="3,240" />						
+		</lv>							
+		<lv lv="4" heroCount="2" trade="0" learn="0" force="146" food="0"							
+			money="6000" needTime="14473">						
+			<event type="1" data="5" />						
+			<event type="5" data="0,0,1,0,2,0,3,8" />						
+			<attribute type="7" data="3,280" />						
+		</lv>							
+		<lv lv="5" heroCount="2" trade="0" learn="0" force="160" food="0"							
+			money="10000" needTime="18582">						
+			<event type="1" data="6" />						
+			<event type="5" data="0,0,1,0,2,0,3,10" />						
+			<attribute type="7" data="3,320" />						
+		</lv>							
+		<lv lv="6" heroCount="2" trade="0" learn="0" force="176" food="0"							
+			money="14000" needTime="22692">						
+			<event type="1" data="7" />						
+			<event type="5" data="0,0,1,0,2,0,3,12" />						
+			<attribute type="7" data="3,350" />						
+		</lv>							
+		<lv lv="7" heroCount="3" trade="0" learn="0" force="291" food="0"							
+			money="24000" needTime="26801">						
+			<event type="1" data="8" />						
+			<event type="5" data="0,0,1,0,2,0,3,15" />						
+			<attribute type="7" data="3,400" />						
+		</lv>							
+		<lv lv="8" heroCount="3" trade="0" learn="0" force="321" food="0"							
+			money="28000" needTime="29481">						
+			<event type="1" data="9" />						
+			<event type="5" data="0,0,1,0,2,0,3,16" />						
+			<attribute type="7" data="3,450" />						
+		</lv>							
+		<lv lv="9" heroCount="3" trade="0" learn="0" force="351" food="0"							
+			money="40000" needTime="32161">						
+			<event type="1" data="10" />						
+			<event type="5" data="0,0,1,0,2,0,3,17" />						
+			<attribute type="7" data="3,500" />						
+		</lv>							
+		<lv lv="10" heroCount="3" trade="0" learn="0" force="387" food="0"							
+			money="80000" needTime="48242">						
+			<event type="1" data="11" />						
+			<event type="5" data="0,0,1,0,2,0,3,26" />						
+			<attribute type="7" data="3,550" />						
+		</lv>							
+		<lv lv="11" heroCount="3" trade="0" learn="0" force="426" food="0"							
+			money="140000" needTime="56282">						
+			<event type="1" data="12" />						
+			<event type="5" data="0,0,1,0,2,0,3,30" />						
+			<attribute type="7" data="3,600" />						
+		</lv>							
+		<lv lv="12" heroCount="0" trade="0" learn="0" force="0" food="0"							
+			money="0" needTime="0">						
+			<attribute type="7" data="3,700" />						
+		</lv>							
+	</build>								
+</builds>									

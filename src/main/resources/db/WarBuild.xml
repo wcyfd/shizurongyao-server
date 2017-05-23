@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.randioo.shizurongyao_server.dao.WarBuildDao">
+	<!-- insert -->
+	<!-- useGeneratedKeys="true" keyProperty="roleId" -->
+	<insert id="insert" parameterType="WarBuild">
+		insert into warbuild(
+			roleId,
+			buildId,
+			starCount
+		) values(
+			#{roleId},
+			#{buildId},
+			#{starCount}
+		)
+	</insert>
+
+	<!-- update -->
+	<update id="update">
+		update 
+			warbuild 
+		set
+			starCount=#{starCount}
+		where 
+			roleId=#{roleId} and buildId=#{buildId}
+	</update>
+
+	<!-- select -->
+	<select id="selectList" resultType="warBuild">
+		select * 
+		from 
+			warbuild 
+		where
+			roleId=#{roleId}
+	</select>
+</mapper>

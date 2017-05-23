@@ -1,0 +1,9 @@
+package com.randioo.shizurongyao_server.protocol;
+
+message GmCmdRequest{
+	optional string account = 1;
+	optional string cmd = 2;
+}
+
+message GmCmdResponse{
+}

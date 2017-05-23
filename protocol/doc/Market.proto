@@ -1,0 +1,50 @@
+package com.randioo.shizurongyao_server.protocol;
+
+import "Entity.proto";
+
+message MarketShowRequest{
+
+}
+
+message MarketShowResponse{
+	//是否播放刷牌动画
+	optional bool isRefresh = 1;
+	//剩余免费刷新次数
+	optional int32 refreshCount = 2;
+	//刷新所需银币
+	optional int32 needMoney = 3;
+	//商品目录
+	repeated MarketItemData marketItemData = 4;
+}
+
+message MarketBuyMarketItemRequest{
+	optional int32 index = 1;
+	/**买多少张*/
+	optional int32 buyCount = 2;
+}
+
+message MarketBuyMarketItemResponse{
+	/**是否购买成功*/
+	optional int32 errorCode = 1 [default=1];
+	/**此次购买了多少张*/
+	optional int32 buyCount = 2;
+	/**下次购买需要的钱*/
+	optional int32 nextBuyMoney = 3;
+	/**购买类型*/
+	optional MarketItemDataBuyType buyType = 4;
+}
+
+//手动刷新
+message MarketArtificialRefreshRequest{
+
+}
+
+message MarketArtificialRefreshResponse{
+	optional int32 errorCode = 1 [default=1];
+	//剩余免费刷新次数
+	optional int32 refreshCount = 2;
+	//刷新所需银币
+	optional int32 needMoney = 3;
+	//商品目录
+	repeated MarketItemData marketItemData = 4;
+}

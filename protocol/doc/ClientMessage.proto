@@ -1,0 +1,72 @@
+package com.randioo.shizurongyao_server.protocol;
+import "Login.proto";
+import "Match.proto";
+import "Fight.proto";
+import "Pillage.proto";
+import "Card.proto";
+import "Ping.proto";
+import "Market.proto";
+import "War.proto";
+import "Role.proto";
+import "Clan.proto";
+import "Gm.proto";
+import "Rank.proto";
+import "Race.proto";
+
+message CSMessage{
+	optional LoginCheckAccountRequest LoginCheckAccountRequest= 1;
+	optional LoginCreateRoleRequest LoginCreateRoleRequest= 2;
+	optional LoginGetRoleDataRequest LoginGetRoleDataRequest= 3;
+
+	optional FightClientReadyRequest FightClientReadyRequest= 4;
+	optional FightGameActionRequest FightGameActionRequest = 5;
+	optional FightGameOverRequest FightGameOverRequest = 6;
+	optional FightGetGameAwardRequest FightGetGameAwardRequest = 7;
+	optional FightCountDownRequest FightCountDownRequest = 8;
+	optional FightLoadResourceProgressRequest FightLoadResourceProgressRequest= 9;
+
+	optional PillageRoleRequest PillageRoleRequest= 10;
+	optional PillageCancelRequest PillageCancelRequest = 11;
+	optional PillageShowRequest PillageShowRequest= 12;
+	optional PillageCompetitionNoticeRequest PillageCompetitionNoticeRequest = 13;
+	optional PillagePracticeRequest PillagePracticeRequest = 14;
+
+	optional CardGetCardsInfoRequest CardGetCardsInfoRequest = 15;
+	optional CardEditCardListRequest CardEditCardListRequest = 16;
+	optional CardLvUpRequest CardLvUpRequest = 17;
+	optional CardChooseUseCardListRequest CardChooseUseCardListRequest = 18;
+	optional CardChangeMainCardRequest CardChangeMainCardRequest = 19;
+
+	optional PingRequest PingRequest = 20;
+	
+	//购买商品
+	optional MarketBuyMarketItemRequest MarketBuyMarketItemRequest = 21;
+	//手动刷新
+	optional MarketArtificialRefreshRequest MarketArtificialRefreshRequest = 22;
+	//显示商品信息
+	optional MarketShowRequest MarketShowRequest= 23;
+
+	//显示战场章节信息
+	optional WarShowWarChapterRequest WarShowWarChapterRequest = 24;
+	//显示战场建筑信息
+	optional WarShowWarBuildRequest WarShowWarBuildRequest= 25;
+	//攻打建筑
+	optional WarMarchRequest WarMarchRequest = 26;
+	
+	optional WarGetChapterAwardRequest WarGetChapterAwardRequest = 27;
+	
+	optional RoleInfoSelectRequest RoleInfoSelectRequest = 28;
+	optional RoleRenameRequest RoleRenameRequest = 29;//玩家重命名
+
+
+	optional ClanShowAllClanRequest ClanShowAllClanRequest = 30;//显示所有部落信息
+
+	optional GmCmdRequest GmCmdRequest = 31;
+	
+	optional RankShowClanPointRankRequest RankShowClanPointRankRequest = 32;
+
+    optional GetRaceRoleNumRequest GetRaceRoleNumRequest = 33;//获取参赛人数
+    optional RaceSignUpRequest RaceSignUpRequest = 34;//比赛报名
+    optional RaceCancelSignUpRequest RaceCancelSignUpRequest  = 35;//取消报名
+    optional RaceDescRequest RaceDescRequest = 36;//比赛状态
+} // 36

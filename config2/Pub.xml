@@ -1,0 +1,1810 @@
+<!-- <kind> 表示可以寻访到几样东西 										
+										
+-->										
+										
+<pub>										
+	<city id="1" name="太原" boxType="0" time='10800' needMedal='200010' unlockHero='16110' pubLv="1" heroCount="1" trade="50" learn="0" force="0">									
+		<!-- 武将 -->								
+		<set type="1">								
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16110" weight="1" minNum="1" maxNum="1" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="1" maxNum="1" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="1" maxNum="1" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="1" maxNum="1" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="1" maxNum="1" />							
+		</set>								
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="2" maxNum="3" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="340" maxNum="510" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="172" maxNum="258" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="12" maxNum="18" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="7" maxNum="10" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="4" maxNum="5" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="5" maxNum="8" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="3" maxNum="4" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="1" maxNum="2" />							
+		</set>								
+	</city>									
+										
+	<city id="2" name="广宗" boxType="1" time='28800' needMedal='200020' unlockHero='16107' pubLv="2" heroCount="1" trade="0" learn="50" force="0">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16107" weight="1" minNum="2" maxNum="2" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="1" maxNum="1" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="1" maxNum="1" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="3" maxNum="3" />							
+		</set>								
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="4" maxNum="5" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="907" maxNum="1360" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="460" maxNum="690" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="32" maxNum="48" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="17" maxNum="26" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="8" maxNum="12" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="4" maxNum="6" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="13" maxNum="20" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="4" maxNum="6" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="4" maxNum="6" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="2" maxNum="3" />							
+		</set>								
+	</city>									
+										
+	<city id="3" name="洛阳" boxType="2" time='43200' needMedal='200030' unlockHero='16101' pubLv="2" heroCount="1" trade="0" learn="0" force="50">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16101" weight="1" minNum="2" maxNum="2" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="10" maxNum="14" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="2" maxNum="2" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="10" maxNum="14" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="10" maxNum="14" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="10" maxNum="14" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="10" maxNum="14" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="10" maxNum="14" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="10" maxNum="14" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="10" maxNum="14" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="4" maxNum="4" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="10" maxNum="14" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="2" maxNum="2" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="10" maxNum="14" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="10" maxNum="14" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="10" maxNum="14" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="4" maxNum="4" />							
+		</set>								
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="5" maxNum="8" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="1360" maxNum="2041" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="690" maxNum="1035" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="48" maxNum="72" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="26" maxNum="39" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="13" maxNum="20" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="20" maxNum="29" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="10" maxNum="15" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="7" maxNum="10" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="4" maxNum="5" />							
+		</set>								
+	</city>									
+										
+	<city id="4" name="长安" boxType="0" time='10800' needMedal='210010' unlockHero='16112' pubLv="3" heroCount="1" trade="50" learn="0" force="0">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16112" weight="1" minNum="1" maxNum="1" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="4" maxNum="4" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="1" maxNum="1" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="4" maxNum="4" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="4" maxNum="4" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="4" maxNum="4" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="4" maxNum="4" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="4" maxNum="4" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="4" maxNum="4" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="4" maxNum="4" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="2" maxNum="2" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="4" maxNum="4" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="1" maxNum="1" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="4" maxNum="4" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="4" maxNum="4" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="4" maxNum="4" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="2" maxNum="2" />							
+		</set>								
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="2" maxNum="3" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="340" maxNum="510" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="172" maxNum="258" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="12" maxNum="18" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="7" maxNum="10" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="4" maxNum="5" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="5" maxNum="8" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="3" maxNum="4" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="1" maxNum="2" />							
+		</set>								
+	</city>									
+										
+	<city id="5" name="宛城" boxType="1" time='28800' needMedal='210020' unlockHero='16105' pubLv="3" heroCount="1" trade="0" learn="50" force="0">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16105" weight="1" minNum="2" maxNum="2" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="9" maxNum="13" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="1" maxNum="1" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="9" maxNum="13" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="9" maxNum="13" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="9" maxNum="13" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="9" maxNum="13" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="9" maxNum="13" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="9" maxNum="13" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="9" maxNum="13" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="4" maxNum="4" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="9" maxNum="13" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="1" maxNum="1" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="9" maxNum="13" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="9" maxNum="13" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="9" maxNum="13" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="4" maxNum="4" />							
+			</set>							
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="5" maxNum="8" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="907" maxNum="1360" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="460" maxNum="690" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="32" maxNum="48" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="17" maxNum="26" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="8" maxNum="12" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="4" maxNum="6" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="13" maxNum="20" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="4" maxNum="6" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="4" maxNum="6" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="2" maxNum="3" />							
+		</set>								
+	</city>									
+										
+	<city id="6" name="下邳" boxType="2" time='43200' needMedal='210030' unlockHero='16102' pubLv="4" heroCount="1" trade="0" learn="0" force="50">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16102" weight="1" minNum="3" maxNum="4" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="2" maxNum="2" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="5" maxNum="7" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="2" maxNum="2" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="5" maxNum="7" />							
+			</set>							
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="7" maxNum="10" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="1360" maxNum="2041" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="690" maxNum="1035" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="48" maxNum="72" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="26" maxNum="39" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="13" maxNum="20" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="20" maxNum="29" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="10" maxNum="15" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="7" maxNum="10" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="4" maxNum="5" />							
+		</set>								
+	</city>									
+										
+	<city id="7" name="许都" boxType="0" time='10800' needMedal='220010' unlockHero='16113' pubLv="4" heroCount="2" trade="120" learn="0" force="0">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16113" weight="1" minNum="1" maxNum="1" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="4" maxNum="6" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="1" maxNum="1" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="4" maxNum="6" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="4" maxNum="6" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="4" maxNum="6" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="4" maxNum="6" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="4" maxNum="6" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="4" maxNum="6" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="4" maxNum="6" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="2" maxNum="2" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="4" maxNum="6" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="1" maxNum="1" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="4" maxNum="6" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="4" maxNum="6" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="4" maxNum="6" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="2" maxNum="2" />							
+		</set>								
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="3" maxNum="4" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="340" maxNum="510" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="172" maxNum="258" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="12" maxNum="18" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="7" maxNum="10" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="4" maxNum="5" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="5" maxNum="8" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="3" maxNum="4" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="1" maxNum="2" />							
+		</set>								
+	</city>									
+										
+	<city id="8" name="新野" boxType="1" time='28800' needMedal='220020' unlockHero='16116' pubLv="5" heroCount="2" trade="0" learn="120" force="0">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16116" weight="1" minNum="3" maxNum="4" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="12" maxNum="16" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="2" maxNum="2" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="12" maxNum="16" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="12" maxNum="16" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="12" maxNum="16" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="12" maxNum="16" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="12" maxNum="16" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="12" maxNum="16" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="12" maxNum="16" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="4" maxNum="6" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="12" maxNum="16" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="2" maxNum="2" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="12" maxNum="16" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="12" maxNum="16" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="12" maxNum="16" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="4" maxNum="6" />							
+		</set>								
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="4" maxNum="6" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="4" maxNum="6" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="4" maxNum="6" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="4" maxNum="6" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="4" maxNum="6" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="4" maxNum="6" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="4" maxNum="6" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="4" maxNum="6" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="6" maxNum="9" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="907" maxNum="1360" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="460" maxNum="690" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="32" maxNum="48" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="17" maxNum="26" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="8" maxNum="12" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="4" maxNum="6" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="13" maxNum="20" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="4" maxNum="6" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="4" maxNum="6" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="2" maxNum="3" />							
+		</set>								
+	</city>									
+										
+	<city id="9" name="江陵" boxType="2" time='43200' needMedal='220030' unlockHero='16115' pubLv="5" heroCount="2" trade="0" learn="0" force="120">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16115" weight="1" minNum="4" maxNum="5" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="16" maxNum="24" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="2" maxNum="2" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="16" maxNum="24" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="16" maxNum="24" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="16" maxNum="24" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="16" maxNum="24" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="16" maxNum="24" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="16" maxNum="24" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="16" maxNum="24" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="6" maxNum="8" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="16" maxNum="24" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="2" maxNum="2" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="16" maxNum="24" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="16" maxNum="24" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="16" maxNum="24" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="6" maxNum="8" />							
+		</set>								
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="8" maxNum="12" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="8" maxNum="12" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="8" maxNum="12" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="8" maxNum="12" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="8" maxNum="12" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="1360" maxNum="2041" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="690" maxNum="1035" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="48" maxNum="72" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="26" maxNum="39" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="13" maxNum="20" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="20" maxNum="29" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="10" maxNum="15" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="7" maxNum="10" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="4" maxNum="5" />							
+		</set>								
+	</city>									
+										
+	<city id="10" name="江夏" boxType="0" time='10800' needMedal='230010' unlockHero='16103' pubLv="6" heroCount="2" trade="120" learn="0" force="0">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16103" weight="1" minNum="1" maxNum="1" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="5" maxNum="7" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="1" maxNum="1" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="5" maxNum="7" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="5" maxNum="7" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="5" maxNum="7" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="5" maxNum="7" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="5" maxNum="7" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="5" maxNum="7" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="5" maxNum="7" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="2" maxNum="2" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="5" maxNum="7" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="1" maxNum="1" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="5" maxNum="7" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="5" maxNum="7" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="5" maxNum="7" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="2" maxNum="2" />							
+		</set>								
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="3" maxNum="4" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="340" maxNum="510" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="172" maxNum="258" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="12" maxNum="18" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="7" maxNum="10" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="4" maxNum="5" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="5" maxNum="8" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="3" maxNum="4" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="1" maxNum="2" />							
+		</set>								
+	</city>									
+										
+	<city id="11" name="合肥" boxType="1" time='28800' needMedal='230020' unlockHero='16104' pubLv="6" heroCount="2" trade="0" learn="120" force="0">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16104" weight="1" minNum="3" maxNum="4" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="2" maxNum="2" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="5" maxNum="7" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="2" maxNum="2" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="13" maxNum="19" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="5" maxNum="7" />							
+		</set>								
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="5" maxNum="8" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="7" maxNum="10" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="907" maxNum="1360" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="460" maxNum="690" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="32" maxNum="48" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="17" maxNum="26" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="8" maxNum="12" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="4" maxNum="6" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="13" maxNum="20" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="4" maxNum="6" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="4" maxNum="6" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="2" maxNum="3" />							
+		</set>								
+	</city>									
+										
+	<city id="12" name="庐江" boxType="2" time='43200' needMedal='230030' unlockHero='16117' pubLv="7" heroCount="2" trade="0" learn="0" force="120">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16117" weight="1" minNum="4" maxNum="5" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="7" maxNum="9" />							
+		</set>								
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="10" maxNum="15" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="10" maxNum="15" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="10" maxNum="15" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="10" maxNum="15" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="10" maxNum="15" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="1360" maxNum="2041" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="690" maxNum="1035" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="48" maxNum="72" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="26" maxNum="39" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="13" maxNum="20" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="20" maxNum="29" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="10" maxNum="15" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="7" maxNum="10" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="4" maxNum="5" />							
+		</set>								
+	</city>									
+										
+	<city id="13" name="白帝" boxType="0" time='10800' needMedal='240010' unlockHero='16121' pubLv="7" heroCount="3" trade="240" learn="0" force="0">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16121" weight="1" minNum="2" maxNum="2" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="6" maxNum="8" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="1" maxNum="1" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="6" maxNum="8" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="6" maxNum="8" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="6" maxNum="8" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="6" maxNum="8" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="6" maxNum="8" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="6" maxNum="8" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="6" maxNum="8" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="6" maxNum="8" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="1" maxNum="1" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="6" maxNum="8" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="6" maxNum="8" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="6" maxNum="8" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="3" maxNum="3" />							
+		</set>								
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="4" maxNum="5" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="340" maxNum="510" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="172" maxNum="258" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="12" maxNum="18" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="7" maxNum="10" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="4" maxNum="5" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="5" maxNum="8" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="3" maxNum="4" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="1" maxNum="2" />							
+		</set>								
+	</city>									
+										
+	<city id="14" name="荆州" boxType="1" time='28800' needMedal='240020' unlockHero='16106' pubLv="8" heroCount="3" trade="0" learn="240" force="0">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16106" weight="1" minNum="4" maxNum="5" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="16" maxNum="22" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="2" maxNum="2" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="16" maxNum="22" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="16" maxNum="22" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="16" maxNum="22" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="16" maxNum="22" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="16" maxNum="22" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="16" maxNum="22" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="16" maxNum="22" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="6" maxNum="8" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="16" maxNum="22" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="2" maxNum="2" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="16" maxNum="22" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="16" maxNum="22" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="16" maxNum="22" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="6" maxNum="8" />							
+		</set>								
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="8" maxNum="12" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="8" maxNum="12" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="8" maxNum="12" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="8" maxNum="12" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="6" maxNum="9" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="8" maxNum="12" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="907" maxNum="1360" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="460" maxNum="690" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="32" maxNum="48" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="17" maxNum="26" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="8" maxNum="12" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="4" maxNum="6" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="13" maxNum="20" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="4" maxNum="6" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="4" maxNum="6" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="2" maxNum="3" />							
+		</set>								
+	</city>									
+										
+	<city id="15" name="夷陵" boxType="2" time='43200' needMedal='240030' unlockHero='16108' pubLv="8" heroCount="3" trade="0" learn="0" force="240">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16108" weight="1" minNum="4" maxNum="7" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="23" maxNum="33" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="23" maxNum="33" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="23" maxNum="33" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="23" maxNum="33" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="23" maxNum="33" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="23" maxNum="33" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="23" maxNum="33" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="23" maxNum="33" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="8" maxNum="12" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="23" maxNum="33" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="23" maxNum="33" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="23" maxNum="33" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="23" maxNum="33" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="8" maxNum="12" />							
+		</set>								
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="12" maxNum="17" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="8" maxNum="12" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="12" maxNum="17" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="12" maxNum="17" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="12" maxNum="17" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="8" maxNum="12" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="8" maxNum="12" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="8" maxNum="12" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="8" maxNum="12" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="8" maxNum="12" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="8" maxNum="12" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="8" maxNum="12" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="12" maxNum="17" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="1360" maxNum="2041" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="690" maxNum="1035" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="48" maxNum="72" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="26" maxNum="39" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="13" maxNum="20" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="20" maxNum="29" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="10" maxNum="15" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="7" maxNum="10" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="4" maxNum="5" />							
+		</set>								
+	</city>									
+										
+	<city id="16" name="滇池" boxType="0" time='10800' needMedal='250010' unlockHero='16111' pubLv="9" heroCount="3" trade="240" learn="0" force="0">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16111" weight="1" minNum="2" maxNum="2" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="1" maxNum="1" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="1" maxNum="1" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="3" maxNum="3" />							
+		</set>								
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="4" maxNum="5" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="340" maxNum="510" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="172" maxNum="258" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="12" maxNum="18" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="7" maxNum="10" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="4" maxNum="5" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="5" maxNum="8" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="3" maxNum="4" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="1" maxNum="2" />							
+		</set>								
+	</city>									
+										
+	<city id="17" name="高定" boxType="1" time='28800' needMedal='250020' unlockHero='16119' pubLv="9" heroCount="3" trade="0" learn="240" force="0">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16119" weight="1" minNum="4" maxNum="5" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="18" maxNum="26" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="2" maxNum="2" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="18" maxNum="26" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="18" maxNum="26" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="18" maxNum="26" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="18" maxNum="26" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="18" maxNum="26" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="18" maxNum="26" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="18" maxNum="26" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="18" maxNum="26" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="2" maxNum="2" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="18" maxNum="26" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="18" maxNum="26" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="18" maxNum="26" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="7" maxNum="9" />							
+		</set>								
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="9" maxNum="14" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="9" maxNum="14" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="9" maxNum="14" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="9" maxNum="14" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="2" maxNum="3" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="9" maxNum="14" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="907" maxNum="1360" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="460" maxNum="690" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="32" maxNum="48" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="17" maxNum="26" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="8" maxNum="12" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="4" maxNum="6" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="13" maxNum="20" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="4" maxNum="6" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="4" maxNum="6" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="2" maxNum="3" />							
+		</set>								
+	</city>									
+										
+	<city id="18" name="南中" boxType="2" time='43200' needMedal='250030' unlockHero='16120' pubLv="10" heroCount="3" trade="0" learn="0" force="240">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16120" weight="1" minNum="5" maxNum="8" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="26" maxNum="38" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="26" maxNum="38" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="26" maxNum="38" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="26" maxNum="38" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="26" maxNum="38" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="26" maxNum="38" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="26" maxNum="38" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="26" maxNum="38" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="9" maxNum="13" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="26" maxNum="38" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="26" maxNum="38" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="26" maxNum="38" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="26" maxNum="38" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="9" maxNum="13" />							
+		</set>								
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="13" maxNum="20" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="9" maxNum="14" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="13" maxNum="20" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="13" maxNum="20" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="13" maxNum="20" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="9" maxNum="14" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="9" maxNum="14" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="9" maxNum="14" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="9" maxNum="14" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="9" maxNum="14" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="9" maxNum="14" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="9" maxNum="14" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="13" maxNum="20" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="1360" maxNum="2041" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="690" maxNum="1035" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="48" maxNum="72" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="26" maxNum="39" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="13" maxNum="20" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="20" maxNum="29" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="10" maxNum="15" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="7" maxNum="10" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="4" maxNum="5" />							
+		</set>								
+	</city>									
+										
+	<city id="19" name="祁山" boxType="0" time='10800' needMedal='260010' unlockHero='16109' pubLv="10" heroCount="3" trade="240" learn="0" force="0">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16109" weight="1" minNum="2" maxNum="2" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="8" maxNum="10" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="1" maxNum="1" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="8" maxNum="10" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="8" maxNum="10" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="8" maxNum="10" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="8" maxNum="10" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="8" maxNum="10" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="8" maxNum="10" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="8" maxNum="10" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="8" maxNum="10" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="1" maxNum="1" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="8" maxNum="10" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="8" maxNum="10" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="8" maxNum="10" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="3" maxNum="3" />							
+		</set>								
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="4" maxNum="6" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="4" maxNum="6" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="4" maxNum="6" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="4" maxNum="6" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="1" maxNum="2" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="4" maxNum="6" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="340" maxNum="510" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="172" maxNum="258" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="12" maxNum="18" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="7" maxNum="10" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="4" maxNum="5" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="5" maxNum="8" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="3" maxNum="4" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="1" maxNum="2" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="1" maxNum="2" />							
+		</set>								
+	</city>									
+										
+	<city id="20" name="襄阳" boxType="1" time='28800' needMedal='260020' unlockHero='16114' pubLv="11" heroCount="3" trade="0" learn="240" force="0">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16114" weight="1" minNum="4" maxNum="5" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="7" maxNum="9" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="3" maxNum="3" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="20" maxNum="28" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="7" maxNum="9" />							
+		</set>								
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="10" maxNum="15" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="10" maxNum="15" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="10" maxNum="15" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="10" maxNum="15" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="7" maxNum="10" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="3" maxNum="4" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="10" maxNum="15" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="907" maxNum="1360" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="460" maxNum="690" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="32" maxNum="48" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="17" maxNum="26" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="8" maxNum="12" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="4" maxNum="6" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="13" maxNum="20" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="4" maxNum="6" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="4" maxNum="6" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="2" maxNum="3" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="2" maxNum="3" />							
+		</set>								
+	</city>									
+										
+	<city id="21" name="建业" boxType="2" time='43200' needMedal='260030' unlockHero='16118' pubLv="12" heroCount="3" trade="0" learn="0" force="240">									
+		<!-- 武将 -->								
+		<set type="1">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="8" itemId="16118" weight="1" minNum="5" maxNum="8" />							
+		</set>								
+		<!-- 兵种 -->								
+		<set type="2">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="9" itemId="16206" weight="1000" minNum="29" maxNum="43" />							
+			<item itemType="9" itemId="16209" weight="0" minNum="4" maxNum="4" />							
+			<item itemType="9" itemId="16210" weight="0" minNum="29" maxNum="43" />							
+			<item itemType="9" itemId="16211" weight="1000" minNum="29" maxNum="43" />							
+			<item itemType="9" itemId="16212" weight="0" minNum="29" maxNum="43" />							
+			<item itemType="9" itemId="16213" weight="0" minNum="29" maxNum="43" />							
+			<item itemType="9" itemId="16214" weight="1000" minNum="29" maxNum="43" />							
+			<item itemType="9" itemId="16215" weight="1000" minNum="29" maxNum="43" />							
+			<item itemType="9" itemId="16216" weight="1000" minNum="29" maxNum="43" />							
+			<item itemType="9" itemId="16217" weight="850" minNum="10" maxNum="14" />							
+			<item itemType="9" itemId="16218" weight="1000" minNum="29" maxNum="43" />							
+			<item itemType="9" itemId="16219" weight="0" minNum="4" maxNum="4" />							
+			<item itemType="9" itemId="16220" weight="1000" minNum="29" maxNum="43" />							
+			<item itemType="9" itemId="16221" weight="1000" minNum="29" maxNum="43" />							
+			<item itemType="9" itemId="16222" weight="1000" minNum="29" maxNum="43" />							
+			<item itemType="9" itemId="16223" weight="850" minNum="10" maxNum="14" />							
+		</set>								
+		<!-- 策略 -->								
+		<set type="3">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="10" itemId="16305" weight="1000" minNum="15" maxNum="22" />							
+			<item itemType="10" itemId="16307" weight="12" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16302" weight="94" minNum="10" maxNum="15" />							
+			<item itemType="10" itemId="16320" weight="12" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16303" weight="12" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16316" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16301" weight="0" minNum="15" maxNum="22" />							
+			<item itemType="10" itemId="16312" weight="0" minNum="15" maxNum="22" />							
+			<item itemType="10" itemId="16313" weight="0" minNum="15" maxNum="22" />							
+			<item itemType="10" itemId="16304" weight="0" minNum="10" maxNum="15" />							
+			<item itemType="10" itemId="16306" weight="0" minNum="10" maxNum="15" />							
+			<item itemType="10" itemId="16308" weight="0" minNum="10" maxNum="15" />							
+			<item itemType="10" itemId="16309" weight="94" minNum="10" maxNum="15" />							
+			<item itemType="10" itemId="16310" weight="0" minNum="10" maxNum="15" />							
+			<item itemType="10" itemId="16311" weight="0" minNum="10" maxNum="15" />							
+			<item itemType="10" itemId="16318" weight="0" minNum="10" maxNum="15" />							
+			<item itemType="10" itemId="16314" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16315" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16317" weight="0" minNum="4" maxNum="5" />							
+			<item itemType="10" itemId="16319" weight="0" minNum="15" maxNum="22" />							
+		</set>								
+		<!-- 银币 -->								
+		<set type="4">								
+			<kind num="1" weight="1" />							
+			<item itemType="2" itemId="0" weight="0" minNum="1360" maxNum="2041" />							
+		</set>								
+		<!-- 粮草 -->								
+		<set type="5">								
+			<kind num="1" weight="1" />							
+			<item itemType="3" itemId="0" weight="0" minNum="690" maxNum="1035" />							
+		</set>								
+		<!-- 材料 -->								
+		<set type="6">								
+										
+			<kind num="1" weight="1" />							
+			<item itemType="4" itemId="31001" weight="64" minNum="48" maxNum="72" />							
+			<item itemType="4" itemId="31002" weight="32" minNum="26" maxNum="39" />							
+			<item itemType="4" itemId="31003" weight="16" minNum="13" maxNum="20" />							
+			<item itemType="4" itemId="31004" weight="8" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31005" weight="32" minNum="20" maxNum="29" />							
+			<item itemType="5" itemId="31006" weight="16" minNum="10" maxNum="15" />							
+			<item itemType="5" itemId="31007" weight="8" minNum="7" maxNum="10" />							
+			<item itemType="5" itemId="31008" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31009" weight="16" minNum="7" maxNum="10" />							
+			<item itemType="6" itemId="31010" weight="8" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31011" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="6" itemId="31012" weight="2" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31013" weight="8" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31014" weight="4" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31015" weight="2" minNum="4" maxNum="5" />							
+			<item itemType="7" itemId="31016" weight="1" minNum="4" maxNum="5" />							
+		</set>								
+	</city>									
+</pub>										

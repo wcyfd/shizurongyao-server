@@ -1,0 +1,51 @@
+package com.randioo.shizurongyao_server.protocol;
+import "Entity.proto";
+message CardGetCardsInfoRequest{
+	
+}
+
+message CardGetCardsInfoResponse{
+	optional int32 useCardId = 1;
+	repeated CardListData cardListDatas = 2;
+}
+
+message CardEditCardListRequest{
+	optional int32 id = 1;
+	optional int32 index = 2;
+	optional int32 cardId = 3;
+}
+
+message CardEditCardListResponse{
+	optional int32 errorCode =1 [default = 1];
+	optional CardListData CardListData = 2;
+}
+
+message CardLvUpRequest{
+	optional int32 cardId = 1;
+}
+
+message CardLvUpResponse{
+	optional int32 errorCode = 1[default = 1];
+	//升级的卡牌id
+	optional int32 cardId = 2;
+}
+
+message CardChooseUseCardListRequest{
+	optional int32 index = 1;
+}
+
+message CardChooseUseCardListResponse{
+	
+}
+
+message CardChangeMainCardRequest{
+	//卡组编号
+	optional int32 cardListIndex = 1;
+	//卡牌id
+	optional int32 cardId = 2;
+}
+
+message CardChangeMainCardResponse{
+	//是否成功
+	optional int32 errorCode = 1[default = 1];	
+}

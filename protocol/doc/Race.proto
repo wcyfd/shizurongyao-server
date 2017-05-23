@@ -1,0 +1,34 @@
+package com.randioo.shizurongyao_server.protocol;
+
+import "Entity.proto";
+message GetRaceRoleNumRequest{
+}
+
+message GetRaceRoleNumResponse{
+	optional int32 roleNum = 1;
+	optional int32 state = 2 ; // 1:可报名,2 :已报名 ,3 :已满  ,4 :需领奖
+}
+message RaceSignUpRequest{
+}
+message RaceSignUpResponse{
+	optional int32 errorCode = 1[default=1];
+}
+message RaceCancelSignUpRequest{
+}
+message RaceCancelSignUpResponse{
+   optional int32 errorCode = 1[default=1];
+}
+message SCRaceEnter{
+}
+message SCRaceDsc{
+  optional RaceType raceType = 1; //1:淘汰赛 ， 2:积分赛
+  optional int32 raceTime = 2; 
+}
+
+message RaceDescRequest{
+}
+message RaceDescResponse{
+  optional RaceType raceType = 1; //-1  :淘汰赛出局 ,2:淘汰赛晋级 ,3:积分赛
+  optional int32 raceTime = 2; 
+  optional int32 roundCount = 3;
+}

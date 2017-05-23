@@ -1,0 +1,44 @@
+package com.randioo.shizurongyao_server.protocol;
+
+import "Entity.proto";
+
+//显示章节信息
+message WarShowWarChapterRequest{
+	
+}
+
+message WarShowWarChapterResponse{
+	optional int32 currentChapterId = 1;
+	//最新章节的id，如果没有下一章，就默认-1，如果本章没有通关，则是本章
+	optional int32 nextChapterId = 2;
+	repeated WarChapterData warChapterData = 3;
+}
+
+//显示建筑信息
+message WarShowWarBuildRequest{
+	//传入-1则表示显示当前章节信息
+	optional int32 chapterId = 1 [default=0];
+}
+
+message WarShowWarBuildResponse{
+	optional WarChapterData currentChapterData = 1;
+	repeated WarBuildData warBuildData = 2;
+}
+
+//攻打
+message WarMarchRequest{
+	optional int32 buildId = 1;
+}
+
+message WarMarchResponse{
+	optional int32 errorCode = 1[default = 1];
+}
+
+//领取章节奖励
+message WarGetChapterAwardRequest{
+	optional int32 chapterId = 1;
+}
+
+message WarGetChapterAwardResponse{
+	optional int32 errorCode = 1 [default = 1];
+}

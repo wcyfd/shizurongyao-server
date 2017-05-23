@@ -1,0 +1,162 @@
+package com.randioo.shizurongyao_server.protocol;
+import "Game.proto";
+
+message RoleData{
+	optional int32 roleId = 1;
+	optional string name =2;
+	repeated CardData cardDatas = 3;
+	repeated CardListData cardListDatas = 4;
+	//是否在战斗中
+	optional bool inFight = 5;
+	optional int32 money = 6;
+	optional int32 point=7;
+	optional bool renameCount = 8;
+	optional int32 clanId = 9;
+	optional int32 gold = 10;
+}
+
+message CardData{
+	optional int32 cardId = 1;
+	optional int32 lv = 2;
+	optional int32 num = 3;
+}
+
+message CardListData{
+	optional int32 cardListIndex =1;
+	optional int32 mainId = 2;
+	repeated int32 cardIds = 3;
+}
+
+message FightCard{
+	optional int32 cardId = 1;
+	optional int32 lv =2;
+}
+
+message RoleResourceInfo{
+	optional string name =1;
+	optional int32 fightPoint = 2;
+	//主帅
+	optional FightCard generalCard = 3;
+	repeated FightCard handCards =4;
+	optional string corpName = 5;
+	optional int32 mainLv = 6;
+	optional int32 playerId = 7;
+	optional int32 campId = 8;
+	//战斗类型
+	optional FightType fightType = 9;
+}
+
+message Frame{
+	optional int32 frameIndex = 1;
+	repeated GameAction gameActions= 2;		
+}
+
+enum GameResult{
+	WIN = 1;
+	LOSS = 2;
+	DOGFALL = 3;
+}
+
+message StoreRoleResourceInfos{
+	optional int32 myPlayerId = 1;
+	repeated RoleResourceInfo roleResourceInfo = 2;
+	optional bool isNPCGame = 3;
+	optional int32 NPCMapId = 4;
+}
+
+message StoreFrames{
+	repeated Frame frames = 1;
+}
+
+message MatchRoleInfo{
+	optional string name = 1;
+	optional int32 heroId = 2;
+	optional int32 point = 3;
+}
+
+enum MarketItemDataBuyType{
+	GOLD = 1;
+	MONEY = 2;
+	RMB = 3;
+}
+
+message MarketItemData{
+	optional int32 cardId = 1;
+	optional int32 nextBuyMoney = 2;
+	optional MarketItemDataBuyType buyType = 3;
+}
+
+message WarChapterData{
+	optional int32 chapterId = 1;
+	optional int32 starCount = 2;	
+	optional ChapterAwardState state = 3 [default = REJECT];
+	enum ChapterAwardState{
+		REJECT=1;
+		ALLOW=2;
+		GET=3;
+	}
+}
+
+message WarBuildData{
+	optional int32 buildId = 1;
+	optional int32 starCount = 2;
+}
+
+enum FightType{
+	PILLAGE = 1;
+	WAR = 2;
+	TEST = 3;
+}
+
+message GameResultData{
+	optional FightType fightType = 1 [default = TEST];
+	optional GameResult gameResult = 2;
+	optional int32 starCount = 3;
+}
+
+message GameResultAwardData{
+	optional int32 point = 1;
+	repeated CardData cardDatas = 2;
+	optional int32 money = 3;
+}
+
+enum RoleInfoType{
+	INFO_MONEY = 1;
+}
+
+enum CardType{
+	CARD_TYPE_HERO = 0;
+	CARD_TYPE_SOLDIER = 1;
+	CARD_TYPE_MAGIC = 2;
+}
+
+enum CardNPCType{
+	CARD_NPC_TYPE_CARD = 1;
+	CARD_NPC_TYPE_EXTRA_CARD = 2;
+}
+//氏族信息
+message ClanData{
+	optional int32 clanId = 1;
+	optional int32 clanCount = 2;
+}
+
+message PointRankData{
+	optional int32 rank = 1;
+	optional string name = 2;
+	optional int32 point = 3;
+	optional int32 winCount = 4;
+	optional CardListData cardListData = 5;
+}
+
+enum RaceType{
+	RACE_TYPE_ELIMINATE = 1;
+	RACE_TYPE_WHEEL = 2;
+	RACE_TYPE_NONE = 3;
+}
+
+enum RaceState{
+	RACE_STATE_CLOSE = 1;
+	RACE_STATE_OPEN = 2;
+	RACE_STATE_OPEN_FILL = 3;
+	RACE_STATE_START = 4;
+}

@@ -1,0 +1,80 @@
+package com.randioo.shizurongyao_server.protocol;
+import "Game.proto";
+import "Entity.proto";
+
+message FightClientReadyRequest{
+	
+}
+
+message FightClientReadyResponse{
+	optional int32 errorCode=1;
+}
+
+message SCFightLoadResource{
+	optional int32 myPlayerId = 1;
+	repeated RoleResourceInfo roleResourceInfo = 2;
+	optional bool isNPCGame = 3;
+	optional int32 NPCMapId = 4;
+}
+
+message FightLoadResourceProgressRequest{
+	optional int32 progress = 1;
+	optional bool complete = 2;
+}
+
+message FightLoadResourceProgressResponse{
+	
+}
+
+message SCFightLoadResourceProgress{
+	optional int32 playerId = 1;
+	optional int32 progress = 2;
+	optional bool complete = 3;
+}
+
+message SCFightStartGame{
+	optional int32 totalTime =1;
+}
+
+message FightGameActionRequest{
+	optional GameAction gameAction = 1;
+}
+
+message FightGameActionResponse{
+}
+
+message FightGameOverRequest{	
+	optional GameResult gameResult = 1;
+	optional int32 playerId = 2;
+	optional int32 starNum = 3 ;
+}
+
+message FightGameOverResponse{
+
+}
+
+message SCFightKeyFrame{	
+	repeated Frame frames = 1;
+}
+
+message FightGetGameAwardRequest{
+	optional GameResultData gameResultData = 1;
+}
+
+message FightGetGameAwardResponse{
+	optional GameResultAwardData gameResultAwardData = 1;
+}
+
+message FightCountDownRequest{
+}
+
+message FightCountDownResponse{
+}
+
+message SCFightCountDown{
+}
+
+message SCFightGameResult{
+	optional int32 playerId = 1;
+	optional GameResult gameResult = 2;
+}

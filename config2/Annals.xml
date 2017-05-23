@@ -1,0 +1,342 @@
+<annals>
+	<!-- 皇宫等级-->
+	<achieve startId="101" type="1">
+		<target id="101" nextId="102" data="1" award="1,0,15;11,0,10" />
+		<target id="102" nextId="103" data="2" award="1,0,15;11,0,10" />
+		<target id="103" nextId="104" data="3" award="1,0,15;11,0,10" />
+		<target id="104" nextId="105" data="4" award="1,0,15;11,0,10" />
+		<target id="105" nextId="106" data="5" award="1,0,15;11,0,10" />
+		<target id="106" nextId="107" data="6" award="1,0,15;11,0,10" />
+		<target id="107" nextId="108" data="7" award="1,0,15;11,0,10" />
+		<target id="108" nextId="109" data="8" award="1,0,15;11,0,10" />
+		<target id="109" nextId="110" data="9" award="1,0,15;11,0,10" />
+		<target id="110" nextId="111" data="10" award="1,0,15;11,0,10" />
+		<target id="111" nextId="112" data="11" award="1,0,15;11,0,10" />
+		<target id="112" nextId="0" data="12" award="1,0,15;11,0,10" />
+	</achieve>
+	<!-- 酒馆等级-->
+	<achieve startId="201" type="2">
+		<target id="201" nextId="202" data="1" award="1,0,15;11,0,10" />
+		<target id="202" nextId="203" data="2" award="1,0,15;11,0,10" />
+		<target id="203" nextId="204" data="3" award="1,0,15;11,0,10" />
+		<target id="204" nextId="205" data="4" award="1,0,15;11,0,10" />
+		<target id="205" nextId="206" data="5" award="1,0,15;11,0,10" />
+		<target id="206" nextId="207" data="6" award="1,0,15;11,0,10" />
+		<target id="207" nextId="208" data="7" award="1,0,15;11,0,10" />
+		<target id="208" nextId="209" data="8" award="1,0,15;11,0,10" />
+		<target id="209" nextId="210" data="9" award="1,0,15;11,0,10" />
+		<target id="210" nextId="211" data="10" award="1,0,15;11,0,10" />
+		<target id="211" nextId="212" data="11" award="1,0,15;11,0,10" />
+		<target id="212" nextId="0" data="12" award="1,0,15;11,0,10" />
+	</achieve>
+	<!-- 研究所等级-->
+	<achieve startId="301" type="3">
+		<target id="301" nextId="302" data="1" award="1,0,15;11,0,10" />
+		<target id="302" nextId="303" data="2" award="1,0,15;11,0,10" />
+		<target id="303" nextId="304" data="3" award="1,0,15;11,0,10" />
+		<target id="304" nextId="305" data="4" award="1,0,15;11,0,10" />
+		<target id="305" nextId="306" data="5" award="1,0,15;11,0,10" />
+		<target id="306" nextId="307" data="6" award="1,0,15;11,0,10" />
+		<target id="307" nextId="308" data="7" award="1,0,15;11,0,10" />
+		<target id="308" nextId="309" data="8" award="1,0,15;11,0,10" />
+		<target id="309" nextId="310" data="9" award="1,0,15;11,0,10" />
+		<target id="310" nextId="311" data="10" award="1,0,15;11,0,10" />
+		<target id="311" nextId="312" data="11" award="1,0,15;11,0,10" />
+		<target id="312" nextId="0" data="12" award="1,0,15;11,0,10" />
+	</achieve>
+	<!-- 仓库等级-->
+	<achieve startId="401" type="4">
+		<target id="401" nextId="402" data="1" award="1,0,15;11,0,10" />
+		<target id="402" nextId="403" data="2" award="1,0,15;11,0,10" />
+		<target id="403" nextId="404" data="3" award="1,0,15;11,0,10" />
+		<target id="404" nextId="405" data="4" award="1,0,15;11,0,10" />
+		<target id="405" nextId="406" data="5" award="1,0,15;11,0,10" />
+		<target id="406" nextId="407" data="6" award="1,0,15;11,0,10" />
+		<target id="407" nextId="408" data="7" award="1,0,15;11,0,10" />
+		<target id="408" nextId="409" data="8" award="1,0,15;11,0,10" />
+		<target id="409" nextId="410" data="9" award="1,0,15;11,0,10" />
+		<target id="410" nextId="411" data="10" award="1,0,15;11,0,10" />
+		<target id="411" nextId="412" data="11" award="1,0,15;11,0,10" />
+		<target id="412" nextId="0" data="12" award="1,0,15;11,0,10" />
+	</achieve>
+	<!-- 民居等级-->
+	<achieve startId="501" type="5">
+		<target id="501" nextId="502" data="1" award="1,0,15;11,0,10" />
+		<target id="502" nextId="503" data="2" award="1,0,15;11,0,10" />
+		<target id="503" nextId="504" data="3" award="1,0,15;11,0,10" />
+		<target id="504" nextId="505" data="4" award="1,0,15;11,0,10" />
+		<target id="505" nextId="506" data="5" award="1,0,15;11,0,10" />
+		<target id="506" nextId="507" data="6" award="1,0,15;11,0,10" />
+		<target id="507" nextId="508" data="7" award="1,0,15;11,0,10" />
+		<target id="508" nextId="509" data="8" award="1,0,15;11,0,10" />
+		<target id="509" nextId="510" data="9" award="1,0,15;11,0,10" />
+		<target id="510" nextId="511" data="10" award="1,0,15;11,0,10" />
+		<target id="511" nextId="512" data="11" award="1,0,15;11,0,10" />
+		<target id="512" nextId="0" data="12" award="1,0,15;11,0,10" />
+	</achieve>
+	<!-- 农田等级-->
+	<achieve startId="601" type="6">
+		<target id="601" nextId="602" data="1" award="1,0,15;11,0,10" />
+		<target id="602" nextId="603" data="2" award="1,0,15;11,0,10" />
+		<target id="603" nextId="604" data="3" award="1,0,15;11,0,10" />
+		<target id="604" nextId="605" data="4" award="1,0,15;11,0,10" />
+		<target id="605" nextId="606" data="5" award="1,0,15;11,0,10" />
+		<target id="606" nextId="607" data="6" award="1,0,15;11,0,10" />
+		<target id="607" nextId="608" data="7" award="1,0,15;11,0,10" />
+		<target id="608" nextId="609" data="8" award="1,0,15;11,0,10" />
+		<target id="609" nextId="610" data="9" award="1,0,15;11,0,10" />
+		<target id="610" nextId="611" data="10" award="1,0,15;11,0,10" />
+		<target id="611" nextId="612" data="11" award="1,0,15;11,0,10" />
+		<target id="612" nextId="0" data="12" award="1,0,15;11,0,10" />
+	</achieve>
+	
+	<achieve startId="701" type="7">
+		<target id="701" nextId="702" data="5000" award="1,0,15;11,0,10" />
+		<target id="702" nextId="703" data="10000" award="1,0,15;11,0,10" />
+		<target id="703" nextId="704" data="20000" award="1,0,15;11,0,10" />
+		<target id="704" nextId="705" data="40000" award="1,0,15;11,0,10" />
+		<target id="705" nextId="706" data="80000" award="1,0,15;11,0,10" />
+		<target id="706" nextId="707" data="160000" award="1,0,15;11,0,10" />
+		<target id="707" nextId="708" data="320000" award="1,0,15;11,0,10" />
+		<target id="708" nextId="709" data="400000" award="1,0,15;11,0,10" />
+		<target id="709" nextId="710" data="500000" award="1,0,15;11,0,10" />
+		<target id="710" nextId="711" data="600000" award="1,0,15;11,0,10" />
+		<target id="711" nextId="712" data="1000000" award="1,0,15;11,0,10" />
+		<target id="712" nextId="0" data="2000000" award="1,0,15;11,0,10" />
+	</achieve>
+
+	<achieve startId="801" type="8">
+		<target id="801" nextId="802" data="5000" award="1,0,15;11,0,10" />
+		<target id="802" nextId="803" data="10000" award="1,0,15;11,0,10" />
+		<target id="803" nextId="804" data="20000" award="1,0,15;11,0,10" />
+		<target id="804" nextId="805" data="40000" award="1,0,15;11,0,10" />
+		<target id="805" nextId="806" data="80000" award="1,0,15;11,0,10" />
+		<target id="806" nextId="807" data="160000" award="1,0,15;11,0,10" />
+		<target id="807" nextId="808" data="320000" award="1,0,15;11,0,10" />
+		<target id="808" nextId="809" data="400000" award="1,0,15;11,0,10" />
+		<target id="809" nextId="810" data="500000" award="1,0,15;11,0,10" />
+		<target id="810" nextId="811" data="600000" award="1,0,15;11,0,10" />
+		<target id="811" nextId="812" data="1000000" award="1,0,15;11,0,10" />
+		<target id="812" nextId="0" data="2000000" award="1,0,15;11,0,10" />
+	</achieve>
+
+	<achieve startId="901" type="9">
+		<target id="901" nextId="902" data="5000" award="1,0,15;11,0,10" />
+		<target id="902" nextId="903" data="10000" award="1,0,15;11,0,10" />
+		<target id="903" nextId="904" data="20000" award="1,0,15;11,0,10" />
+		<target id="904" nextId="905" data="40000" award="1,0,15;11,0,10" />
+		<target id="905" nextId="906" data="80000" award="1,0,15;11,0,10" />
+		<target id="906" nextId="907" data="100000" award="1,0,15;11,0,10" />
+		<target id="907" nextId="908" data="120000" award="1,0,15;11,0,10" />
+		<target id="908" nextId="909" data="150000" award="1,0,15;11,0,10" />
+		<target id="909" nextId="910" data="180000" award="1,0,15;11,0,10" />
+		<target id="910" nextId="911" data="200000" award="1,0,15;11,0,10" />
+		<target id="911" nextId="912" data="220000" award="1,0,15;11,0,10" />
+		<target id="912" nextId="0" data="250000" award="1,0,15;11,0,10" />
+	</achieve>
+
+	<achieve startId="1001" type="10">
+		<target id="1001" nextId="1002" data="400" award="1,0,15;11,0,10" />
+		<target id="1002" nextId="1003" data="800" award="1,0,15;11,0,10" />
+		<target id="1003" nextId="1004" data="1100" award="1,0,15;11,0,10" />
+		<target id="1004" nextId="1005" data="1400" award="1,0,15;11,0,10" />
+		<target id="1005" nextId="1006" data="1700" award="1,0,15;11,0,10" />
+		<target id="1006" nextId="1007" data="3000" award="1,0,15;11,0,10" />
+		<target id="1007" nextId="0" data="5000" award="1,0,15;11,0,10" />
+	</achieve>
+
+	<achieve startId="1101" type="11">
+		<target id="1101" nextId="1102" data="10" award="1,0,15;11,0,10" />
+		<target id="1102" nextId="1103" data="20" award="1,0,15;11,0,10" />
+		<target id="1103" nextId="1104" data="60" award="1,0,15;11,0,10" />
+		<target id="1104" nextId="1105" data="100" award="1,0,15;11,0,10" />
+		<target id="1105" nextId="1106" data="150" award="1,0,15;11,0,10" />
+		<target id="1106" nextId="1107" data="200" award="1,0,15;11,0,10" />
+		<target id="1107" nextId="1108" data="250" award="1,0,15;11,0,10" />
+		<target id="1108" nextId="1109" data="300" award="1,0,15;11,0,10" />
+		<target id="1109" nextId="1110" data="350" award="1,0,15;11,0,10" />
+		<target id="1110" nextId="1111" data="400" award="1,0,15;11,0,10" />
+		<target id="1111" nextId="1112" data="450" award="1,0,15;11,0,10" />
+		<target id="1112" nextId="0" data="500" award="1,0,15;11,0,10" />
+	</achieve>
+
+	<achieve startId="1201" type="12">
+		<target id="1201" nextId="1202" data="10" award="1,0,15;11,0,10" />
+		<target id="1202" nextId="1203" data="20" award="1,0,15;11,0,10" />
+		<target id="1203" nextId="1204" data="60" award="1,0,15;11,0,10" />
+		<target id="1204" nextId="1205" data="100" award="1,0,15;11,0,10" />
+		<target id="1205" nextId="1206" data="150" award="1,0,15;11,0,10" />
+		<target id="1206" nextId="1207" data="200" award="1,0,15;11,0,10" />
+		<target id="1207" nextId="1208" data="250" award="1,0,15;11,0,10" />
+		<target id="1208" nextId="1209" data="300" award="1,0,15;11,0,10" />
+		<target id="1209" nextId="1210" data="350" award="1,0,15;11,0,10" />
+		<target id="1210" nextId="1211" data="400" award="1,0,15;11,0,10" />
+		<target id="1211" nextId="1212" data="450" award="1,0,15;11,0,10" />
+		<target id="1212" nextId="0" data="500" award="1,0,15;11,0,10" />
+	</achieve>
+
+	<achieve startId="1301" type="13">
+		<target id="1301" nextId="1302" data="1" award="1,0,15;11,0,10" />
+		<target id="1302" nextId="1303" data="5" award="1,0,15;11,0,10" />
+		<target id="1303" nextId="1304" data="10" award="1,0,15;11,0,10" />
+		<target id="1304" nextId="1305" data="15" award="1,0,15;11,0,10" />
+		<target id="1305" nextId="0" data="21" award="1,0,15;11,0,10" />
+	</achieve>
+
+	<achieve startId="1401" type="14">
+		<target id="1401" nextId="1402" data="1" award="1,0,15;11,0,10" />
+		<target id="1402" nextId="1403" data="2" award="1,0,15;11,0,10" />
+		<target id="1403" nextId="1404" data="3" award="1,0,15;11,0,10" />
+		<target id="1404" nextId="1405" data="4" award="1,0,15;11,0,10" />
+		<target id="1405" nextId="1406" data="5" award="1,0,15;11,0,10" />
+		<target id="1406" nextId="1407" data="6" award="1,0,15;11,0,10" />
+		<target id="1407" nextId="0" data="7" award="1,0,15;11,0,10" />
+	</achieve>
+
+	<achieve startId="1501" type="15">
+		<target id="1501" nextId="1502" data="5" award="1,0,15;11,0,10" />
+		<target id="1502" nextId="1503" data="10" award="1,0,15;11,0,10" />
+		<target id="1503" nextId="1504" data="15" award="1,0,15;11,0,10" />
+		<target id="1504" nextId="1505" data="20" award="1,0,15;11,0,10" />
+		<target id="1505" nextId="1506" data="25" award="1,0,15;11,0,10" />
+		<target id="1506" nextId="1507" data="30" award="1,0,15;11,0,10" />
+		<target id="1507" nextId="1508" data="35" award="1,0,15;11,0,10" />
+		<target id="1508" nextId="1509" data="40" award="1,0,15;11,0,10" />
+		<target id="1509" nextId="1510" data="45" award="1,0,15;11,0,10" />
+		<target id="1510" nextId="1511" data="50" award="1,0,15;11,0,10" />
+		<target id="1511" nextId="1512" data="55" award="1,0,15;11,0,10" />
+		<target id="1512" nextId="0" data="60" award="1,0,15;11,0,10" />
+	</achieve>
+
+	<achieve startId="1601" type="16">
+		<target id="1601" nextId="1602" data="1" award="1,0,15;11,0,10" />
+		<target id="1602" nextId="1603" data="2" award="1,0,15;11,0,10" />
+		<target id="1603" nextId="1604" data="3" award="1,0,15;11,0,10" />
+		<target id="1604" nextId="1605" data="4" award="1,0,15;11,0,10" />
+		<target id="1605" nextId="1606" data="5" award="1,0,15;11,0,10" />
+		<target id="1606" nextId="1607" data="6" award="1,0,15;11,0,10" />
+		<target id="1607" nextId="1608" data="7" award="1,0,15;11,0,10" />
+		<target id="1608" nextId="1609" data="8" award="1,0,15;11,0,10" />
+		<target id="1609" nextId="1610" data="9" award="1,0,15;11,0,10" />
+		<target id="1610" nextId="1611" data="10" award="1,0,15;11,0,10" />
+		<target id="1611" nextId="1612" data="11" award="1,0,15;11,0,10" />
+		<target id="1612" nextId="0" data="12" award="1,0,15;11,0,10" />
+	</achieve>
+
+	<achieve startId="1701" type="17">
+		<target id="1701" nextId="1702" data="20" award="1,0,15;11,0,10" />
+		<target id="1702" nextId="1703" data="50" award="1,0,15;11,0,10" />
+		<target id="1703" nextId="1704" data="100" award="1,0,15;11,0,10" />
+		<target id="1704" nextId="1705" data="500" award="1,0,15;11,0,10" />
+		<target id="1705" nextId="1706" data="1000" award="1,0,15;11,0,10" />
+		<target id="1706" nextId="1707" data="1500" award="1,0,15;11,0,10" />
+		<target id="1707" nextId="1708" data="2000" award="1,0,15;11,0,10" />
+		<target id="1708" nextId="1709" data="2500" award="1,0,15;11,0,10" />
+		<target id="1709" nextId="1710" data="3000" award="1,0,15;11,0,10" />
+		<target id="1710" nextId="1711" data="3500" award="1,0,15;11,0,10" />
+		<target id="1711" nextId="1712" data="4000" award="1,0,15;11,0,10" />
+		<target id="1712" nextId="0" data="4500" award="1,0,15;11,0,10" />
+	</achieve>
+
+	<achieve startId="1801" type="18">
+		<target id="1801" nextId="1802" data="10" award="1,0,15;11,0,10" />
+		<target id="1802" nextId="1803" data="50" award="1,0,15;11,0,10" />
+		<target id="1803" nextId="1804" data="100" award="1,0,15;11,0,10" />
+		<target id="1804" nextId="1805" data="150" award="1,0,15;11,0,10" />
+		<target id="1805" nextId="1806" data="200" award="1,0,15;11,0,10" />
+		<target id="1806" nextId="1807" data="250" award="1,0,15;11,0,10" />
+		<target id="1807" nextId="1808" data="300" award="1,0,15;11,0,10" />
+		<target id="1808" nextId="1809" data="350" award="1,0,15;11,0,10" />
+		<target id="1809" nextId="1810" data="400" award="1,0,15;11,0,10" />
+		<target id="1810" nextId="1811" data="450" award="1,0,15;11,0,10" />
+		<target id="1811" nextId="1812" data="500" award="1,0,15;11,0,10" />
+		<target id="1812" nextId="0" data="550" award="1,0,15;11,0,10" />
+	</achieve>
+
+	<achieve startId="1901" type="19">
+		<target id="1901" nextId="1902" data="1" award="1,0,15;11,0,10" />
+		<target id="1902" nextId="1903" data="10" award="1,0,15;11,0,10" />
+		<target id="1903" nextId="1904" data="15" award="1,0,15;11,0,10" />
+		<target id="1904" nextId="1905" data="20" award="1,0,15;11,0,10" />
+		<target id="1905" nextId="1906" data="50" award="1,0,15;11,0,10" />
+		<target id="1906" nextId="1907" data="100" award="1,0,15;11,0,10" />
+		<target id="1907" nextId="1908" data="150" award="1,0,15;11,0,10" />
+		<target id="1908" nextId="1909" data="200" award="1,0,15;11,0,10" />
+		<target id="1909" nextId="1910" data="250" award="1,0,15;11,0,10" />
+		<target id="1910" nextId="1911" data="300" award="1,0,15;11,0,10" />
+		<target id="1911" nextId="1912" data="350" award="1,0,15;11,0,10" />
+		<target id="1912" nextId="0" data="400" award="1,0,15;11,0,10" />
+	</achieve>
+
+	<achieve startId="2001" type="20">
+		<target id="2001" nextId="0" data="1" award="1,0,15;11,0,10" />
+	</achieve>
+
+	<achieve startId="2101" type="21">
+		<target id="2101" nextId="0" data="1" award="1,0,15;11,0,10" />
+	</achieve>
+
+	<achieve startId="2201" type="22">
+		<target id="2201" nextId="0" data="1" award="1,0,15;11,0,10" />
+	</achieve>
+
+	<achieve startId="2301" type="23">
+		<target id="2301" nextId="2302" data="1" award="1,0,15;11,0,10" />
+		<target id="2302" nextId="2303" data="5" award="1,0,15;11,0,10" />
+		<target id="2303" nextId="2304" data="10" award="1,0,15;11,0,10" />
+		<target id="2304" nextId="2305" data="15" award="1,0,15;11,0,10" />
+		<target id="2305" nextId="2306" data="20" award="1,0,15;11,0,10" />
+		<target id="2306" nextId="2307" data="25" award="1,0,15;11,0,10" />
+		<target id="2307" nextId="2308" data="30" award="1,0,15;11,0,10" />
+		<target id="2308" nextId="2309" data="35" award="1,0,15;11,0,10" />
+		<target id="2309" nextId="2310" data="40" award="1,0,15;11,0,10" />
+		<target id="2310" nextId="2311" data="45" award="1,0,15;11,0,10" />
+		<target id="2311" nextId="2312" data="50" award="1,0,15;11,0,10" />
+		<target id="2312" nextId="0" data="55" award="1,0,15;11,0,10" />
+	</achieve>
+
+	<achieve startId="2401" type="24">
+		<target id="2401" nextId="2402" data="1" award="1,0,15;11,0,10" />
+		<target id="2402" nextId="2403" data="5" award="1,0,15;11,0,10" />
+		<target id="2403" nextId="2404" data="20" award="1,0,15;11,0,10" />
+		<target id="2404" nextId="2405" data="100" award="1,0,15;11,0,10" />
+		<target id="2405" nextId="2406" data="150" award="1,0,15;11,0,10" />
+		<target id="2406" nextId="2407" data="200" award="1,0,15;11,0,10" />
+		<target id="2407" nextId="2408" data="250" award="1,0,15;11,0,10" />
+		<target id="2408" nextId="2409" data="300" award="1,0,15;11,0,10" />
+		<target id="2409" nextId="2410" data="350" award="1,0,15;11,0,10" />
+		<target id="2410" nextId="2411" data="400" award="1,0,15;11,0,10" />
+		<target id="2411" nextId="2412" data="450" award="1,0,15;11,0,10" />
+		<target id="2412" nextId="0" data="500" award="1,0,15;11,0,10" />
+	</achieve>
+
+	<achieve startId="2501" type="25">
+		<target id="2501" nextId="2502" data="1" award="1,0,15;11,0,10" />
+		<target id="2502" nextId="2503" data="5" award="1,0,15;11,0,10" />
+		<target id="2503" nextId="2504" data="10" award="1,0,15;11,0,10" />
+		<target id="2504" nextId="2505" data="50" award="1,0,15;11,0,10" />
+		<target id="2505" nextId="2506" data="100" award="1,0,15;11,0,10" />
+		<target id="2506" nextId="2507" data="150" award="1,0,15;11,0,10" />
+		<target id="2507" nextId="2508" data="200" award="1,0,15;11,0,10" />
+		<target id="2508" nextId="2509" data="250" award="1,0,15;11,0,10" />
+		<target id="2509" nextId="2510" data="300" award="1,0,15;11,0,10" />
+		<target id="2510" nextId="2511" data="350" award="1,0,15;11,0,10" />
+		<target id="2511" nextId="2512" data="400" award="1,0,15;11,0,10" />
+		<target id="2512" nextId="0" data="450" award="1,0,15;11,0,10" />
+	</achieve>
+
+	<achieve startId="2601" type="26">
+		<target id="2601" nextId="2602" data="50" award="1,0,15;11,0,10" />
+		<target id="2602" nextId="2603" data="100" award="1,0,15;11,0,10" />
+		<target id="2603" nextId="2604" data="150" award="1,0,15;11,0,10" />
+		<target id="2604" nextId="2605" data="200" award="1,0,15;11,0,10" />
+		<target id="2605" nextId="2606" data="250" award="1,0,15;11,0,10" />
+		<target id="2606" nextId="2607" data="300" award="1,0,15;11,0,10" />
+		<target id="2607" nextId="2608" data="350" award="1,0,15;11,0,10" />
+		<target id="2608" nextId="2609" data="400" award="1,0,15;11,0,10" />
+		<target id="2609" nextId="2610" data="450" award="1,0,15;11,0,10" />
+		<target id="2610" nextId="2611" data="500" award="1,0,15;11,0,10" />
+		<target id="2611" nextId="2612" data="550" award="1,0,15;11,0,10" />
+		<target id="2612" nextId="0" data="600" award="1,0,15;11,0,10" />
+	</achieve>	
+</annals>

@@ -1,0 +1,65 @@
+package com.randioo.shizurongyao_server.protocol;
+
+enum ErrorCode{
+
+	//通用
+
+	OK = 1;//成功
+	NO_STRING = 2;//字符串为空
+
+
+	//登录
+
+	NO_ROLE_ACCOUNT = 3;//没有该帐号
+	EXIST_ROLE = 4;//已经存在用户
+	CREATE_FAILED = 5;//创建失败
+	REJECT_LOGIN = 6;//拒绝登陆
+	ACCOUNT_ILLEGEL = 7;//帐号不合法，只能是英文字母
+	IN_LOGIN = 8;//正在登录中
+	NAME_SENSITIVE = 9;//玩家名有敏感字
+	NO_ROLE_DATA = 10;//没有该玩家信息
+	NAME_REPEATED = 11;//名字重复
+	NAME_TOO_LONG = 12;//名字过长
+	NAME_SPECIAL_CHAR = 13;//名字特殊字符
+	
+
+	//玩家
+
+	NO_CARD = 14;//没有该卡
+	NO_MONEY = 15;//没有钱
+	NO_GOLD = 16;//没有金币
+	
+
+	//比赛
+
+	ERR_CANCEL_ROOM = 17;//无效的取消
+
+
+	//卡牌
+
+	ERR_TYPE_MAIN_ID = 18;//只有英雄可以作为主将
+	OUT_INDEX_OF = 19;//下标越界
+	ERR_NUM_CARD_H= 20;//不能重复放置英雄卡
+	ERR_NUM_CARD_N= 21;//超过该卡片类型
+	MAX_CARD_LV= 22;//最高卡片等级 
+
+
+	//战场
+
+	NO_MARCH_TARGET= 23;//行军失败
+	CHAPTER_AWARD_NEED_STAR_FULL = 24;//章节奖励需要满星
+
+
+	//经营
+
+	REPEAT_GET_AWARD= 25;//重复领取奖励
+	
+	//比赛
+
+	RACE_NUM_FULL= 26;//报名人数已满
+	RACE_NOT_SIGN_UP= 27;//未到报名时间
+	RACE_BEEN_SIGN_UP= 28;//已经过报名
+    RACE_BEEN_NOT_SIGN_UP= 29;//还未报名
+	
+} // 29
+

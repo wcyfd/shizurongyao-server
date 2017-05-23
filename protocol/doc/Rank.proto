@@ -1,0 +1,12 @@
+package com.randioo.shizurongyao_server.protocol;
+
+import "Entity.proto";
+
+message RankShowClanPointRankRequest{
+	optional int32 clanId = 1;
+}
+
+message RankShowClanPointRankResponse{
+	repeated PointRankData pointRankData = 1;
+	
+}

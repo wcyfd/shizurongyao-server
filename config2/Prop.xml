@@ -1,0 +1,18 @@
+<PropMap>						
+	<prop id="31001" name="生纸" type="1" quality="1" compoundId="31002" needNum="2" cost="100" effect="纸张：2张生纸可合成1张硬黄纸，可用于军幕府研发。" describe="    生纸柔韧性是十分突出的，将生宣捏在手中，手感很柔软，能够体验柔韧十足的感受。"/>					
+	<prop id="31002" name="硬黄纸" type="1" quality="2" compoundId="31003" needNum="2" cost="200" effect="纸张：2张硬黄纸可合成1张鹿纹纸，可用于军幕府研发。" describe="    此纸易于久藏，光泽莹滑，因染纸用黄檗汁，不但作黄色染料，还可以防蛀。"/>					
+	<prop id="31003" name="鹿纹纸" type="1" quality="3" compoundId="31004" needNum="2" cost="400" effect="纸张：2张鹿纹纸可合成1张卧龙笺，可用于军幕府研发。。" describe="    这种纸迎光看时能显示除鹿纹外的透亮的线纹或图案，目的在于增添纸的潜在美。"/>					
+	<prop id="31004" name="卧龙笺" type="1" quality="4" compoundId="0" needNum="0" cost="0" effect="纸张：卧龙笺可用于军幕府研发。" describe="    薄如卵膜，坚洁如玉，细薄光润，有的五十尺为一幅，从头到尾犹如一条神龙盘卧，匀薄如。"/>					
+	<prop id="31005" name="梧桐" type="2" quality="1" compoundId="31006" needNum="2" cost="100" effect="木材：2根梧桐可合成1根铁木，可用于军幕府研发。" describe="    桐材带有一种色泽光亮的纹理，导音可以，因此可做成乐器，桐木还有一定的药用价值。"/>					
+	<prop id="31006" name="铁木" type="2" quality="2" compoundId="31007" needNum="2" cost="200" effect="木材：2根铁木可合成1根檀木，可用于军幕府研发。" describe="    木材较坚硬，淡黄灰色，有光泽，木材带清雅的香气，多用于建造房屋与木质家具。"/>					
+	<prop id="31007" name="檀木" type="2" quality="3" compoundId="31008" needNum="2" cost="400" effect="木材：2根檀木可合成1根千年木，可用于军幕府研发。" describe="    其质地紧密坚硬、且百毒不侵，又能避邪治病，人们常常把它作为吉祥物，以保平安。"/>					
+	<prop id="31008" name="千年木" type="2" quality="4" compoundId="0" needNum="0" cost="0" effect="木材：千年木可用于军幕府研发。" describe="    这种木材生长缓慢，非千年不能成材，成材大料极难得到，且木质坚硬，致密。"/>					
+	<prop id="31009" name="兽皮" type="3" quality="1" compoundId="31010" needNum="2" cost="100" effect="皮革：2块兽皮可合成1块狼皮，可用于军幕府研发。" describe="    普通野兽身上剥下的皮，皮质本身比较粗糙，通常用来包裹一些简单的东西。"/>					
+	<prop id="31010" name="狼皮" type="3" quality="2" compoundId="31011" needNum="2" cost="200" effect="皮革：2块狼皮可合成1块白虎皮，可用于军幕府研发。" describe="    狼皮毛长、绒厚、灵活、有光泽，板肥壮、分量较重，主要用于制做一些厚重的垫子。"/>					
+	<prop id="31011" name="白虎皮" type="3" quality="3" compoundId="31012" needNum="2" cost="400" effect="皮革：2块白虎皮可合成1块貂皮，可用于军幕府研发。" describe="    传说白虎通灵性，极为罕见，其皮拥有很强的抗寒能力，是制造上等战袍的不二之选。"/>					
+	<prop id="31012" name="貂皮" type="3" quality="4" compoundId="0" needNum="0" cost="0" effect="皮革：貂皮可用于军幕府研发。" describe="    貂皮属于细皮毛裘皮，皮板优良，轻柔结实，毛绒丰厚，色泽光润，素有“裘中之王”之称。"/>					
+	<prop id="31013" name="红铜" type="4" quality="1" compoundId="31014" needNum="2" cost="100" effect="金属：2块红铜可合成1块锡锭，可用于军幕府研发。" describe="    又名紫铜，就是铜单质，因其颜色为紫红色而得名，可用以铸钱及制作器物。"/>					
+	<prop id="31014" name="锡锭" type="4" quality="2" compoundId="31015" needNum="2" cost="200" effect="金属：2块锡锭可合成1块白银，可用于军幕府研发。" describe="    锡是一种银白色而又柔软的金属，它的硬度比较低，用小刀就能切开，有良好延展性。"/>					
+	<prop id="31015" name="白银" type="4" quality="3" compoundId="31016" needNum="2" cost="400" effect="金属：2块白银可合成1块赤金，可用于军幕府研发。" describe="    和黄金一样，是一种应用历史悠久的贵金属，由于银独有的优良特性，人们赋予它货币和装饰双重价值。"/>					
+	<prop id="31016" name="赤金" type="4" quality="4" compoundId="0" needNum="0" cost="0" effect="金属：赤金可用于军幕府研发。" describe="    俗话说“金无足赤”，赤金为金含量极高的一种金属，其纯度高，色泽深，柔软，硬度较低。"/>					
+</PropMap>						

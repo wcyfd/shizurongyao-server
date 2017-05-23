@@ -1,0 +1,12 @@
+package com.randioo.shizurongyao_server.protocol;
+import "Entity.proto";
+
+message SCMatchComplete{
+	optional int32 index = 1;
+	optional int32 mapsId = 2;
+	repeated MatchRoleInfo matchRoleInfos = 3;
+}
+
+message SCMatchCancel{
+	
+}

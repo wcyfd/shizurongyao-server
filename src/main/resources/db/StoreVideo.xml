@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.randioo.shizurongyao_server.dao.StoreVideoDao">
+	<!-- insert -->
+	<!-- useGeneratedKeys="true" keyProperty="roleId" -->
+	<insert id="insert">
+		insert into storevideo(
+			gameId,
+			gameResultStr,
+			startTime,
+			storeFramesBytes,
+			storeRoleResourceInfosBytes
+		) values(
+			#{gameId},
+			#{gameResultStr},
+			#{startTime},
+			#{storeFramesBytes},
+			#{storeRoleResourceInfosBytes}
+		)
+	</insert>
+
+	<!-- select -->
+	<select id="get" resultType="StoreVideo">
+		select * 
+		from 
+			storevideo 
+		where
+			gameId=#{gameId}
+	</select>
+
+	<!-- select -->
+	<select id="getMaxStoreVideoId" resultType="int">
+		select 
+			MAX(gameId) 
+		from 
+			storevideo
+	</select>
+</mapper>

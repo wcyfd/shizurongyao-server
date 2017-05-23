@@ -1,0 +1,122 @@
+<train>									
+	<seat seatId="0" time="21600" cost="0">								
+		<kind num="2" weight="10" />							
+		<item itemType="4" itemId="31001" weight="10" minNum="3" maxNum="5" />							
+		<item itemType="4" itemId="31002" weight="10" minNum="1" maxNum="3" />							
+		<item itemType="4" itemId="31003" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="4" itemId="31004" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="5" itemId="31005" weight="10" minNum="1" maxNum="3" />							
+		<item itemType="5" itemId="31006" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="5" itemId="31007" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="5" itemId="31008" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="6" itemId="31009" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="6" itemId="31010" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="6" itemId="31011" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="6" itemId="31012" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31013" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31014" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31015" weight="0" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31016" weight="0" minNum="1" maxNum="2" />							
+		<event type="5" data="0,1,1,1,2,1,3,1" />							
+	</seat>								
+	<seat seatId="1" time="21600" cost="100">								
+		<kind num="2" weight="10" />							
+		<item itemType="4" itemId="31001" weight="10" minNum="3" maxNum="5" />							
+		<item itemType="4" itemId="31002" weight="10" minNum="1" maxNum="3" />							
+		<item itemType="4" itemId="31003" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="4" itemId="31004" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="5" itemId="31005" weight="10" minNum="1" maxNum="3" />							
+		<item itemType="5" itemId="31006" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="5" itemId="31007" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="5" itemId="31008" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="6" itemId="31009" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="6" itemId="31010" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="6" itemId="31011" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="6" itemId="31012" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31013" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31014" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31015" weight="0" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31016" weight="0" minNum="1" maxNum="2" />							
+		<event type="5" data="0,1,1,1,2,1,3,1" />							
+	</seat>								
+	<seat seatId="2" time="21600" cost="200">								
+		<kind num="2" weight="10" />							
+		<item itemType="4" itemId="31001" weight="10" minNum="3" maxNum="5" />							
+		<item itemType="4" itemId="31002" weight="10" minNum="1" maxNum="3" />							
+		<item itemType="4" itemId="31003" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="4" itemId="31004" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="5" itemId="31005" weight="10" minNum="1" maxNum="3" />							
+		<item itemType="5" itemId="31006" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="5" itemId="31007" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="5" itemId="31008" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="6" itemId="31009" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="6" itemId="31010" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="6" itemId="31011" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="6" itemId="31012" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31013" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31014" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31015" weight="0" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31016" weight="0" minNum="1" maxNum="2" />							
+		<event type="5" data="0,1,1,1,2,1,3,1" />							
+	</seat>								
+	<seat seatId="3" time="21600" cost="500">								
+		<kind num="2" weight="10" />							
+		<item itemType="4" itemId="31001" weight="10" minNum="3" maxNum="5" />							
+		<item itemType="4" itemId="31002" weight="10" minNum="1" maxNum="3" />							
+		<item itemType="4" itemId="31003" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="4" itemId="31004" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="5" itemId="31005" weight="10" minNum="1" maxNum="3" />							
+		<item itemType="5" itemId="31006" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="5" itemId="31007" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="5" itemId="31008" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="6" itemId="31009" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="6" itemId="31010" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="6" itemId="31011" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="6" itemId="31012" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31013" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31014" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31015" weight="0" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31016" weight="0" minNum="1" maxNum="2" />							
+		<event type="5" data="0,1,1,1,2,1,3,1" />							
+	</seat>								
+	<seat seatId="4" time="21600" cost="1000">								
+		<kind num="2" weight="10" />							
+		<item itemType="4" itemId="31001" weight="10" minNum="3" maxNum="5" />							
+		<item itemType="4" itemId="31002" weight="10" minNum="1" maxNum="3" />							
+		<item itemType="4" itemId="31003" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="4" itemId="31004" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="5" itemId="31005" weight="10" minNum="1" maxNum="3" />							
+		<item itemType="5" itemId="31006" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="5" itemId="31007" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="5" itemId="31008" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="6" itemId="31009" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="6" itemId="31010" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="6" itemId="31011" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="6" itemId="31012" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31013" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31014" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31015" weight="0" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31016" weight="0" minNum="1" maxNum="2" />							
+		<event type="5" data="0,1,1,1,2,1,3,1" />							
+	</seat>								
+	<seat seatId="5" time="21600" cost="2000">								
+		<kind num="2" weight="10" />							
+		<item itemType="4" itemId="31001" weight="10" minNum="3" maxNum="5" />							
+		<item itemType="4" itemId="31002" weight="10" minNum="1" maxNum="3" />							
+		<item itemType="4" itemId="31003" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="4" itemId="31004" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="5" itemId="31005" weight="10" minNum="1" maxNum="3" />							
+		<item itemType="5" itemId="31006" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="5" itemId="31007" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="5" itemId="31008" weight="10" minNum="0" maxNum="2" />							
+		<item itemType="6" itemId="31009" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="6" itemId="31010" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="6" itemId="31011" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="6" itemId="31012" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31013" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31014" weight="10" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31015" weight="0" minNum="1" maxNum="2" />							
+		<item itemType="7" itemId="31016" weight="0" minNum="1" maxNum="2" />							
+		<event type="5" data="0,1,1,1,2,1,3,1" />							
+	</seat>								
+</train>									

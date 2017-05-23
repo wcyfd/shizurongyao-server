@@ -1,0 +1,7 @@
+<Config>
+	<figureRate value='20' />
+	<worldScale value='30' />
+	<velocityIterations value='0' />
+	<positionIterations value='1' />
+	<debugMapId value='0' />
+</Config>

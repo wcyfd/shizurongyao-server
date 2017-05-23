@@ -1,0 +1,51 @@
+<!--						
+<item level='1' cost='10' costCard='1'/> 1级升2级消耗						
+-->						
+<CardLevel>						
+	<quality id='0'>					
+		<item level='1' cost='500' costCard='10'/>				
+		<item level='2' cost='800' costCard='50'/>				
+		<item level='3' cost='1200' costCard='120'/>				
+		<item level='4' cost='2000' costCard='250'/>				
+		<item level='5' cost='2500' costCard='400'/>				
+		<item level='6' cost='4500' costCard='600'/>				
+		<item level='7' cost='5500' costCard='800'/>				
+		<item level='8' cost='6000' costCard='1000'/>				
+		<item level='9' cost='7000' costCard='1200'/>				
+		<item level='10' cost='10000' costCard='1800'/>				
+		<item level='11' cost='12000' costCard='2500'/>				
+		<item level='12' cost='0' costCard='0'/>				
+	</quality>					
+	<quality id='1'>					
+		<item level='1' cost='1200' costCard='10'/>				
+		<item level='2' cost='2000' costCard='30'/>				
+		<item level='3' cost='5000' costCard='60'/>				
+		<item level='4' cost='7500' costCard='100'/>				
+		<item level='5' cost='12000' costCard='150'/>				
+		<item level='6' cost='15000' costCard='200'/>				
+		<item level='7' cost='20000' costCard='300'/>				
+		<item level='8' cost='25000' costCard='400'/>				
+		<item level='9' cost='30000' costCard='600'/>				
+		<item level='10' cost='0' costCard='0'/>				
+	</quality>					
+	<quality id='2'>					
+		<item level='1' cost='2000' costCard='10'/>				
+		<item level='2' cost='3000' costCard='20'/>				
+		<item level='3' cost='6000' costCard='40'/>				
+		<item level='4' cost='12000' costCard='60'/>				
+		<item level='5' cost='20000' costCard='80'/>				
+		<item level='6' cost='30000' costCard='100'/>				
+		<item level='7' cost='45000' costCard='150'/>				
+		<item level='8' cost='0' costCard='0'/>				
+	</quality>					
+	<quality id='3'>					
+		<item level='1' cost='2500' costCard='10'/>				
+		<item level='2' cost='4000' costCard='20'/>				
+		<item level='3' cost='8000' costCard='40'/>				
+		<item level='4' cost='20000' costCard='60'/>				
+		<item level='5' cost='30000' costCard='80'/>				
+		<item level='6' cost='50000' costCard='100'/>				
+		<item level='7' cost='65000' costCard='150'/>				
+		<item level='8' cost='0' costCard='0'/>				
+	</quality>					
+</CardLevel>						

@@ -1,0 +1,60 @@
+<!--point:低于或等于该分数匹配队伍-->						
+						
+<Npc>						
+	<mapsId point="400">					
+		<npc id="1201"></npc>				
+		<npc id="1202"></npc>				
+		<npc id="1203"></npc>				
+		<npc id="1204"></npc>				
+		<npc id="1205"></npc>							
+	</mapsId>					
+	<mapsId point="800">					
+		<npc id="2101"></npc>				
+		<npc id="2102"></npc>				
+		<npc id="2103"></npc>				
+		<npc id="2104"></npc>				
+		<npc id="2105"></npc>				
+	</mapsId>					
+	<mapsId point="1100">					
+		<npc id="3101"></npc>				
+		<npc id="3102"></npc>				
+		<npc id="3103"></npc>				
+		<npc id="3104"></npc>				
+		<npc id="3105"></npc>			
+	</mapsId>					
+	<mapsId point="1400">					
+		<npc id="3101"></npc>				
+		<npc id="3102"></npc>				
+		<npc id="3103"></npc>				
+		<npc id="3104"></npc>				
+		<npc id="3105"></npc>				
+	</mapsId>					
+	<mapsId point="1700">					
+		<npc id="3101"></npc>				
+		<npc id="3102"></npc>				
+		<npc id="3103"></npc>				
+		<npc id="3104"></npc>				
+		<npc id="3105"></npc>				
+	</mapsId>					
+	<mapsId point="2000">					
+		<npc id="3101"></npc>				
+		<npc id="3102"></npc>				
+		<npc id="3103"></npc>				
+		<npc id="3104"></npc>				
+		<npc id="3105"></npc>				
+	</mapsId>					
+	<mapsId point="2300">					
+		<npc id="3101"></npc>				
+		<npc id="3102"></npc>				
+		<npc id="3103"></npc>				
+		<npc id="3104"></npc>				
+		<npc id="3105"></npc>				
+	</mapsId>					
+	<mapsId point="9999999">					
+		<npc id="3101"></npc>				
+		<npc id="3102"></npc>				
+		<npc id="3103"></npc>				
+		<npc id="3104"></npc>				
+		<npc id="3105"></npc>				
+	</mapsId>					
+</Npc>						

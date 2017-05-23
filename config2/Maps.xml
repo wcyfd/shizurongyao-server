@@ -1,0 +1,1485 @@
+<Maps>						
+	<item id="0" name="Basic">					
+		<BackgroundImage>images/map.jpg</BackgroundImage>				
+		<SkinResources>11001,444</SkinResources>
+		<MapTransform>				
+			<PixelOrigin x='568' y='290' />			
+			<PixelBounds x='-568' y='-240' w='1136' h='480' />			
+			<Grids r='18' c='32' />			
+			<BackgroundRect x='-568' y='-290' w='1136' h='640' />			
+		</MapTransform>				
+		<Obstacles>				
+			<Rect UUID='0x0001' tag='middle' sP='15,4' eP='16,13'/>			
+		</Obstacles>				
+		<Regions>				
+			<Rect UUID='0x0001' tag='middleTop' sP='15,0' eP='16,3' />			
+			<Rect UUID='0x0002' tag='middleBottom' sP='15,14' eP='16,17' />			
+			<Rect UUID='0x0003' tag='putableLeft' sP='0,0' eP='14,17' />			
+			<Rect UUID='0x0004' tag='putableRightUp' sP='17,0' eP='20,8' />			
+			<Rect UUID='0x0005' tag='putableRightBottom' sP='17,9' eP='20,17' />			
+		</Regions>				
+		<FightObjects>				
+			<Building UUID='0x0001' id='15000' tag='citadel' pl='1' camp='1' sP='1,7' eP='4,10' sA='0' sT='0' />			
+			<Building UUID='0x0002' id='15001' tag='citadel' pl='2' camp='2' sP='27,7' eP='30,10' sA='180' sT='0' />			
+			<Building UUID='0x0003' id='15014' tag='upperTower' pl='1' camp='1' sP='5,2' eP='7,4' sA='0' sT='0' />			
+			<Building UUID='0x0004' id='15016' tag='upperTower' pl='2' camp='2' sP='24,2,' eP='26,4' sA='180' sT='0' />			
+			<Building UUID='0x0005' id='15014' tag='lowerTower' pl='1' camp='1' sP='5,13' eP='7,15' sA='0' sT='0' />			
+			<Building UUID='0x0006' id='15016' tag='lowerTower' pl='2' camp='2' sP='24,13' eP='26,15' sA='180' sT='0' />			
+		</FightObjects>				
+		<GlobalVariables>				
+			<Number name='waitTime' />			
+			<FightObject name='myCatidel' />			
+			<FightObject name='enemyCatidel' />			
+		</GlobalVariables>				
+		<Triggers>				
+			<Trigger name='Map initialization'>			
+				<Events>		
+					<function name='MapInitialization'>	
+					</function>	
+				</Events>		
+				<Actions>		
+					
+				</Actions>		
+			</Trigger>			
+			<Trigger name='GameOver LOSE'>			
+				<Events>		
+					<function name='Die'>	
+						<global name='myCatidel' />
+					</function>	
+				</Events>		
+				<Actions>		
+					<function name='GameOver'>	
+						<int value='4' />
+						<global name='waitTime' />
+					</function>	
+				</Actions>		
+			</Trigger>			
+			<Trigger name='GameOver WIN'>			
+				<Events>		
+					<function name='Die'>	
+						<global name='enemyCatidel' />
+					</function>	
+				</Events>		
+				<Actions>		
+					<function name='GameOver'>	
+						<int value='3' />
+						<global name='waitTime' />
+					</function>	
+				</Actions>		
+			</Trigger>			
+		</Triggers>				
+		<NpcActions>				
+		</NpcActions>				
+	</item>					
+	<item id="1001" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='9,12' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='3,16' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='45'></Card>			
+			<Card id='16101' pl='2' camp='2' lv='1' sP='9,5' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='6,6' sT='55'></Card>			
+		</NpcActions>				
+	</item>					
+	<item id="1002" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,11' sT='110'></Card>			
+			<ExtraCard id='26003' pl='2' camp='2' lv='1' sP='6,11' sT='112'></ExtraCard>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='115'></Card>			
+			<Card id='16101' pl='2' camp='2' lv='1' sP='3,16' sT='120'></Card>			
+		</NpcActions>				
+	</item>					
+	<item id="1101" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,6' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,6' sT='115'></Card>			
+			<Card id='16101' pl='2' camp='2' lv='1' sP='9,5' sT='120'></Card>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="1102" parent="1101" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26022' pl='2' camp='2' lv='1' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="1103" parent="1102" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,6' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,6' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='9,5' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='9,12' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='115'></Card>			
+			<ExtraCard id='26046' pl='2' camp='2' lv='1' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="1104" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='9,12' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='3,16' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='9,5' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='6,6' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,6' sT='80'></Card>			
+			<ExtraCard id='26046' pl='2' camp='2' lv='1' sP='6,6' sT='82'></ExtraCard>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26023' pl='2' camp='2' lv='1' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="1105" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='22'></Card>			
+			<ExtraCard id='26023' pl='2' camp='2' lv='1' sP='6,6' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,6' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,6' sT='115'></Card>			
+			<ExtraCard id='26047' pl='2' camp='2' lv='1' sP='9,5' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="1106" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='22'></Card>			
+			<ExtraCard id='26047' pl='2' camp='2' lv='1' sP='6,6' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26003' pl='2' camp='2' lv='1' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="1201" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='22'></Card>			
+			<ExtraCard id='26003' pl='2' camp='2' lv='1' sP='6,6' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,6' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,6' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='9,5' sT='55'></Card>			
+			<ExtraCard id='26047' pl='2' camp='2' lv='1' sP='6,11' sT='75'></ExtraCard>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='9,12' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='115'></Card>			
+			<ExtraCard id='26009' pl='2' camp='2' lv='1' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="1202" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<ExtraCard id='26046' pl='2' camp='2' lv='1' sP='9,12' sT='15'></ExtraCard>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='3,16' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='9,5' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='6,6' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='115'></Card>			
+			<Card id='16115' pl='2' camp='2' lv='1' sP='3,16' sT='120'></Card>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="1203" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='22'></Card>			
+			<ExtraCard id='26023' pl='2' camp='2' lv='1' sP='6,6' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,6' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,6' sT='115'></Card>			
+			<ExtraCard id='26010' pl='2' camp='2' lv='1' sP='9,5' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="1204" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='6,6' sT='25'></Card>			
+			<ExtraCard id='26010' pl='2' camp='2' lv='1' sP='9,12' sT='45'></ExtraCard>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='75'></Card>			
+			<ExtraCard id='26009' pl='2' camp='2' lv='1' sP='6,6' sT='80'></ExtraCard>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26007' pl='2' camp='2' lv='1' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="1205" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='22'></Card>			
+			<ExtraCard id='26046' pl='2' camp='2' lv='1' sP='6,6' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,6' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,6' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='9,5' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='9,12' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='115'></Card>			
+			<ExtraCard id='26006' pl='2' camp='2' lv='1' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="1206" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='9,12' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='22'></Card>			
+			<ExtraCard id='26047' pl='2' camp='2' lv='1' sP='3,16' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='9,5' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='6,6' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26008' pl='2' camp='2' lv='1' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="1301" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,6' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,6' sT='115'></Card>			
+			<ExtraCard id='26019' pl='2' camp='2' lv='1' sP='9,5' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="1302" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='22'></Card>			
+			<ExtraCard id='26019' pl='2' camp='2' lv='1' sP='6,6' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='115'></Card>			
+<!-- 			<Card id='16108' pl='2' camp='2' lv='1' sP='3,16' sT='120'></Card>			 -->
+		</NpcActions>				
+	</item>					
+						
+	<item id="1303" parent="0" name="">				
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='22'></Card>			
+			<ExtraCard id='26008' pl='2' camp='2' lv='1' sP='6,6' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,6' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,6' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='9,5' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='9,12' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='115'></Card>			
+<!-- 			<Card id='16111' pl='2' camp='2' lv='1' sP='3,16' sT='120'></Card>			 -->
+		</NpcActions>				
+	</item>					
+						
+	<item id="1304" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='9,12' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='3,16' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='9,5' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='6,6' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26017' pl='2' camp='2' lv='1' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="1305" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='22'></Card>			
+			<ExtraCard id='26017' pl='2' camp='2' lv='1' sP='6,6' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,6' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,6' sT='115'></Card>			
+			<ExtraCard id='26018' pl='2' camp='2' lv='1' sP='9,5' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="1306" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<ExtraCard id='26018' pl='2' camp='2' lv='1' sP='6,6' sT='15'></ExtraCard>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='115'></Card>			
+			<Card id='16110' pl='2' camp='2' lv='1' sP='3,16' sT='120'></Card>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="1307" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='1' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,5' sT='22'></Card>			
+			<ExtraCard id='26018' pl='2' camp='2' lv='1' sP='6,6' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,6' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,6' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='1' sP='9,5' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='1' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='1' sP='9,12' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='1' sP='12,12' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='1' sP='9,12' sT='115'></Card>			
+			<ExtraCard id='26016' pl='2' camp='2' lv='1' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2101" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='22'></Card>			
+			<ExtraCard id='26016' pl='2' camp='2' lv='2' sP='3,16' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='6,6' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='115'></Card>			
+			<Card id='16101' pl='2' camp='2' lv='2' sP='3,16' sT='120'></Card>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2102" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='115'></Card>			
+			<ExtraCard id='26029' pl='2' camp='2' lv='2' sP='9,5' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2103" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='22'></Card>			
+			<ExtraCard id='26029' pl='2' camp='2' lv='2' sP='6,6' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26030' pl='2' camp='2' lv='2' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2104" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<ExtraCard id='26016' pl='2' camp='2' lv='2' sP='6,6' sT='15'></ExtraCard>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='9,5' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='115'></Card>			
+			<ExtraCard id='26026' pl='2' camp='2' lv='2' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2105" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='22'></Card>			
+			<ExtraCard id='26030' pl='2' camp='2' lv='2' sP='3,16' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='6,6' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26028' pl='2' camp='2' lv='1' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2106" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='22'></Card>			
+			<ExtraCard id='26028' pl='2' camp='2' lv='1' sP='6,6' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='115'></Card>			
+			<ExtraCard id='26027' pl='2' camp='2' lv='1' sP='9,5' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2107" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='3,16' sT='55'></Card>			
+			<ExtraCard id='26027' pl='2' camp='2' lv='1' sP='6,6' sT='75'></ExtraCard>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='115'></Card>			
+			<Card id='16110' pl='2' camp='2' lv='2' sP='3,16' sT='120'></Card>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2201" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='9,5' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='115'></Card>			
+			<ExtraCard id='26012' pl='2' camp='2' lv='2' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2202" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='22'></Card>			
+			<ExtraCard id='26012' pl='2' camp='2' lv='2' sP='3,16' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='6,6' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26011' pl='2' camp='2' lv='2' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2203" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='3,16' sT='55'></Card>			
+			<ExtraCard id='26011' pl='2' camp='2' lv='2' sP='6,11' sT='75'></ExtraCard>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='115'></Card>			
+			<Card id='16116' pl='2' camp='2' lv='2' sP='9,5' sT='120'></Card>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2204" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='22'></Card>			
+			<ExtraCard id='26012' pl='2' camp='2' lv='2' sP='6,6' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26013' pl='2' camp='2' lv='2' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2205" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='9,5' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='115'></Card>			
+			<ExtraCard id='26015' pl='2' camp='2' lv='1' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2206" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='22'></Card>			
+			<ExtraCard id='26013' pl='2' camp='2' lv='2' sP='3,16' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='6,6' sT='55'></Card>			
+			<ExtraCard id='26015' pl='2' camp='2' lv='1' sP='6,6' sT='75'></ExtraCard>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26014' pl='2' camp='2' lv='2' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2301" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='115'></Card>			
+			<ExtraCard id='26020' pl='2' camp='2' lv='2' sP='9,5' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2302" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='22'></Card>			
+			<ExtraCard id='26020' pl='2' camp='2' lv='2' sP='6,6' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26022' pl='2' camp='2' lv='2' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2303" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='22'></Card>			
+			<ExtraCard id='26022' pl='2' camp='2' lv='2' sP='6,6' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='9,5' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='115'></Card>			
+			<ExtraCard id='26023' pl='2' camp='2' lv='2' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2304" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='3,16' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='6,6' sT='55'></Card>			
+			<ExtraCard id='26023' pl='2' camp='2' lv='2' sP='6,6' sT='75'></ExtraCard>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26024' pl='2' camp='2' lv='1' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2305" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='3,16' sT='55'></Card>			
+			<ExtraCard id='26020' pl='2' camp='2' lv='2' sP='6,11' sT='75'></ExtraCard>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='115'></Card>			
+			<ExtraCard id='26021' pl='2' camp='2' lv='2' sP='9,5' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2306" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='22'></Card>			
+			<ExtraCard id='26021' pl='2' camp='2' lv='2' sP='6,6' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='3,16' sT='55'></Card>			
+			<ExtraCard id='26023' pl='2' camp='2' lv='2' sP='6,6' sT='75'></ExtraCard>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='115'></Card>			
+			<Card id='16112' pl='2' camp='2' lv='2' sP='3,16' sT='120'></Card>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="2307" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='2' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,6' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,6' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='2' sP='9,5' sT='55'></Card>			
+			<Card id='16112' pl='2' camp='2' lv='2' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='2' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='2' sP='9,12' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='2' sP='12,12' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='2' sP='9,12' sT='115'></Card>			
+<!-- 			<Card id='16111' pl='2' camp='2' lv='2' sP='3,16' sT='120'></Card>			 -->
+		</NpcActions>				
+	</item>					
+						
+	<item id="3101" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='3,16' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='6,6' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='115'></Card>			
+<!-- 			<Card id='16118' pl='2' camp='2' lv='4' sP='3,16' sT='120'></Card>			 -->
+		</NpcActions>				
+	</item>					
+						
+	<item id="3102" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='115'></Card>			
+			<Card id='16116' pl='2' camp='2' lv='4' sP='9,5' sT='120'></Card>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3103" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26032' pl='2' camp='2' lv='3' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3104" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='9,5' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='115'></Card>			
+			<ExtraCard id='26033' pl='2' camp='2' lv='3' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3105" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='3,16' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='6,6' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26034' pl='2' camp='2' lv='4' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3106" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='22'></Card>			
+			<ExtraCard id='26034' pl='2' camp='2' lv='4' sP='6,6' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='115'></Card>			
+			<ExtraCard id='26035' pl='2' camp='2' lv='4' sP='9,5' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3107" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='80'></Card>			
+			<ExtraCard id='26034' pl='2' camp='2' lv='4' sP='6,6' sT='82'></ExtraCard>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26036' pl='2' camp='2' lv='2' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3108" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='45'></Card>			
+			<ExtraCard id='26036' pl='2' camp='2' lv='2' sP='6,6' sT='50'></ExtraCard>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='9,5' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='115'></Card>			
+			<ExtraCard id='26031' pl='2' camp='2' lv='3' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3201" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='3,16' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='6,6' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26040' pl='2' camp='2' lv='3' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3202" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='115'></Card>			
+			<ExtraCard id='26042' pl='2' camp='2' lv='4' sP='9,5' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3203" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26043' pl='2' camp='2' lv='3' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3204" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='9,5' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='115'></Card>			
+			<ExtraCard id='26038' pl='2' camp='2' lv='4' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3205" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='3,16' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='6,6' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='80'></Card>			
+			<ExtraCard id='26043' pl='2' camp='2' lv='3' sP='6,6' sT='82'></ExtraCard>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26041' pl='2' camp='2' lv='3' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3206" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='115'></Card>			
+			<ExtraCard id='26039' pl='2' camp='2' lv='4' sP='9,5' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3207" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='22'></Card>			
+			<ExtraCard id='26039' pl='2' camp='2' lv='4' sP='6,6' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26037' pl='2' camp='2' lv='4' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3208" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='22'></Card>			
+			<ExtraCard id='26037' pl='2' camp='2' lv='4' sP='6,6' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='9,5' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='115'></Card>			
+			<Card id='16113' pl='2' camp='2' lv='4' sP='3,16' sT='120'></Card>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3301" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='3,16' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='6,6' sT='55'></Card>			
+			<ExtraCard id='26037' pl='2' camp='2' lv='4' sP='6,6' sT='75'></ExtraCard>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26044' pl='2' camp='2' lv='3' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3302" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='3,16' sT='55'></Card>			
+			<ExtraCard id='26043' pl='2' camp='2' lv='3' sP='6,11' sT='75'></ExtraCard>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='115'></Card>			
+			<ExtraCard id='26050' pl='2' camp='2' lv='3' sP='9,5' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3303" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<ExtraCard id='26044' pl='2' camp='2' lv='3' sP='6,6' sT='15'></ExtraCard>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26049' pl='2' camp='2' lv='2' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3304" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='22'></Card>			
+			<ExtraCard id='26049' pl='2' camp='2' lv='2' sP='6,6' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='9,5' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='115'></Card>			
+			<ExtraCard id='26047' pl='2' camp='2' lv='4' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3305" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='22'></Card>			
+			<ExtraCard id='26047' pl='2' camp='2' lv='4' sP='3,16' sT='25'></ExtraCard>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='6,6' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26045' pl='2' camp='2' lv='2' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3306" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='3,16' sT='55'></Card>			
+			<ExtraCard id='26045' pl='2' camp='2' lv='2' sP='6,11' sT='75'></ExtraCard>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='115'></Card>			
+			<ExtraCard id='26046' pl='2' camp='2' lv='4' sP='9,5' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3307" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='15'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='3,16' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='9,5' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='115'></Card>			
+			<ExtraCard id='26048' pl='2' camp='2' lv='2' sP='3,16' sT='120'></ExtraCard>			
+		</NpcActions>				
+	</item>					
+						
+	<item id="3308" parent="0" name="">					
+		<NpcActions modifier='override'>				
+			<Citadel pl='2' camp='2' lv='4' loop='1,2,2' />			
+			<ExtraCard id='26046' pl='2' camp='2' lv='4' sP='6,6' sT='15'></ExtraCard>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='9,5' sT='20'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,5' sT='22'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='6,6' sT='25'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,6' sT='45'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,6' sT='50'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,6' sT='52'></Card>			
+			<Card id='16220' pl='2' camp='2' lv='4' sP='9,5' sT='55'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='6,11' sT='75'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='6,11' sT='80'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='6,11' sT='82'></Card>			
+			<Card id='16215' pl='2' camp='2' lv='4' sP='3,16' sT='85'></Card>			
+			<Card id='16221' pl='2' camp='2' lv='4' sP='9,12' sT='110'></Card>			
+			<Card id='16214' pl='2' camp='2' lv='4' sP='12,12' sT='112'></Card>			
+			<Card id='16206' pl='2' camp='2' lv='4' sP='9,12' sT='115'></Card>			
+			<Card id='16112' pl='2' camp='2' lv='4' sP='3,16' sT='120'></Card>			
+		</NpcActions>				
+	</item>					
+</Maps>						

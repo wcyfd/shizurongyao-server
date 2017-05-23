@@ -1,0 +1,33 @@
+package com.randioo.shizurongyao_server.protocol;
+
+import "Entity.proto";
+
+message SCRoleMoney{
+	optional int32 money = 1;
+}
+
+message SCRoleGold{
+	optional int32 gold = 1;
+}
+
+message RoleInfoSelectRequest{
+	repeated RoleInfoType roleInfoType = 1;
+}
+
+message RoleInfoSelectResponse{
+	repeated RoleInfoType roleInfoType = 1;
+	optional int32 money = 2;
+}
+
+message SCRolePoint{
+	optional int32 point = 1;
+}
+
+message RoleRenameRequest{
+	optional string name = 1;
+	optional int32 clanId = 2;
+}
+
+message RoleRenameResponse{
+	optional int32 errorCode = 1[default=1];
+}

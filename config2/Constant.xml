@@ -1,0 +1,17 @@
+<Constant>
+    <!-- 升级建筑奖励的武将卡牌数量 -->
+    <!-- value=resType,itemId,num;resType,itemId,num;  itemType道具类型（1元宝2银币3粮草4纸5木头6皮革7金属8英雄9兵种10计策11威望）-->
+	<entry key="build_lv_up_quality_bad_add_num" value="4" />
+	<entry key="build_lv_up_quality_normal_add_num" value="3" />
+	<entry key="build_lv_up_quality_good_add_num" value="2" />
+	<entry key="build_lv_up_quality_best_add_num" value="1" />
+	<entry key="warActivityStartTime" value="13:00:00" />
+	<entry key="warActivityEndTime" value="16:00:00" />
+	<entry key="initMoney" value="5000"></entry>
+	<entry key="initFood" value="1500"></entry>
+	<entry key="initGold" value="1000"></entry>
+	<entry key="pub_guide_visit" value="5,31005,50;5,31006,22;5,31007,13;8,16107,10;8,16220,8;8,16302,8;"></entry> <!-- 引导时发放的奖励 -->
+	<entry key="step" value="20"></entry>
+	<entry key="warCardList1" value="0,16107,16206,16206,16215,16215,16220,16220,16221,16221,16302,16302,16307"></entry>
+	<entry key="warCardList2" value="0,16110,16206,16206,16215,16215,16220,16220,16221,16221,16302,16302,16307"></entry>
+</Constant>

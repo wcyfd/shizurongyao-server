@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.randioo.shizurongyao_server.dao.ClanMemberDao">
+	<!-- insert -->
+	<!-- useGeneratedKeys="true" keyProperty="roleId" -->
+	<insert id="insert" parameterType="ClanMember">
+		insert into clanmember(
+			clan_id,
+			role_id
+		) values(
+			#{clanId},
+			#{roleId}
+		)
+	</insert>
+
+	<!-- update -->
+	<update id="update">
+		update 
+			clanmember 
+		set
+			clan_id=#{clanId}
+		where
+			role_id=#{roleId}
+	</update>
+
+	<!-- select -->
+	<select id="selectList" resultType="ClanMember">
+		select 
+			clan_id as clanId,
+			role_id as roleId
+		from 
+			clanmember 
+		where
+			clan_id=#{clanId}
+	</select>
+</mapper>

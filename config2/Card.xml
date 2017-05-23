@@ -1,0 +1,3163 @@
+<Card>						
+	<item id="16101" name='王允' quality='3' type='0'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>3</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12633</spine>			
+			<spine>112633</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="洛阳勋章">				
+						
+						
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<!-- 等级信息，其中value为基础值，cP,cA,cB,cK为公式参数 -->				
+		<!-- 设当前等级为X，则 现值 = ( value*(1+cP)^(X-1) + cA*(X-1)^2 + cB*(X-1) ) * cK ，每个等级的cK略有差异-->				
+		<!-- 1.正比例增长：现值 = ( value + cB*(X-1) ) * cK ，此时cP,cA为0，cB等于每级增长量-->				
+		<!-- 2.指数级增长：现值 = ( value*(1+cP)^(X-1) ) * cK ，此时cA,cB为0，cP为每级增长量的百分比/100，似股票涨跌幅-->				
+		<!-- 3.抛物线增长：现值 = ( value + cA*(X-1)^2 ) * cK ，此时cP,cB为0，cA控制增长幅度，每级增长量成正比例增长-->				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='45' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='56' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='40' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='147' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='5' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='123' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='1.75' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.75' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.45' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='1.0045'/>			
+			<item level='6' cK='1.0041'/>			
+			<item level='7' cK='1.0076'/>			
+			<item level='8' cK='1.0034'/>			
+		</levelinfo>				
+		<!-- action : 卡牌的作用 -->				
+		<action><!-- 生成的单位FightobgectID；x，y：相对于指针位置的像素偏移值 -->				
+			<make fo="12633" x='0' y='0' />			
+		</action>				
+		<!-- preview : 预放置操作 -->				
+		<preview><!-- circle放置圈，make预放置时的皮肤ID，x，y：相对于指针位置的像素偏移值 -->				
+			<circle r='69' alpha="0"/>			
+			<make obj="12633" x='0' y='0'/>			
+		</preview>				
+	</item>					
+						
+	<item id="16102" name='吕蒙' quality='3' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>3</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12627</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="下邳勋章">				
+						
+						
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='51' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='55' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='54' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='660' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='75' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.1' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.45' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='1'/>			
+			<item level='6' cK='0.9989'/>			
+			<item level='7' cK='0.9962'/>			
+			<item level='8' cK='0.9957'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12627" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='69' alpha="0"/>			
+			<make obj="12627" x='0' y='0'/>			
+		</preview>				
+	</item>					
+						
+	<item id="16103" name='甘宁' quality='3' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>4</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12606</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="江夏勋章">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='57' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='62' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='64' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='600' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='325' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.8' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.98' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='1'/>			
+			<item level='6' cK='0.9989'/>			
+			<item level='7' cK='0.9962'/>			
+			<item level='8' cK='0.9957'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12606" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='56' alpha="0"/>			
+			<make obj="12606" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16104" name='张飞' quality='3' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>5</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12582</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="合肥勋章">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='63' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='53' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='72' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='1900' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='120' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.5' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.1' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0012' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='0.9992'/>			
+			<item level='5' cK='0.9972'/>			
+			<item level='6' cK='0.9937'/>			
+			<item level='7' cK='0.9937'/>			
+			<item level='8' cK='0.9907'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12582" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='56' alpha="0"/>			
+			<make obj="12582" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16105" name='黄忠' quality='3' type='0'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>5</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12652</spine>			
+			<spine>15003</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="宛城勋章">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='52' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='68' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='65' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='340' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='6.5' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='77' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.98' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='0.9979'/>			
+			<item level='6' cK='0.9963'/>			
+			<item level='7' cK='0.9966'/>			
+			<item level='8' cK='0.9939'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12652" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='76' alpha="0"/>			
+			<make obj="12652" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16106" name='庞统' quality='3' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>4</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12584</spine>			
+			<spine>115000</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="荆州勋章">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='74' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='89' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='65' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='800' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='3.5' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='100' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='1.25' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.6' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.98' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='0.9982'/>			
+			<item level='6' cK='0.9945'/>			
+			<item level='7' cK='0.995'/>			
+			<item level='8' cK='0.9922'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12584" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='56' alpha="0"/>			
+			<make obj="12584" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16107" name='马超' quality='3' type='0'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>5</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12585</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="广宗勋章">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='78' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='70' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='86' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='700' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='185' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.75' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.45' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='0.9917'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='0.9993'/>			
+			<item level='5' cK='0.9975'/>			
+			<item level='6' cK='0.9971'/>			
+			<item level='7' cK='0.9938'/>			
+			<item level='8' cK='0.9911'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12585" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='57' alpha="0"/>			
+			<make obj="12585" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16108" name='貂蝉' quality='3' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>5</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12579</spine>			
+			<spine>15003</spine>			
+			<spine>12202</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="夷陵勋章">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='88' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='75' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='51' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='500' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='5.5' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='49' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='1' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0.7' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.45' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='10' show='1' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='轻步兵x2' show='1' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='0.9986'/>			
+			<item level='6' cK='0.995'/>			
+			<item level='7' cK='0.9954'/>			
+			<item level='8' cK='0.9927'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12579" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='75' alpha="0"/>			
+			<make obj="12579" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16109" name='孙尚香' quality='3' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>3</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12540</spine>			
+			<spine>15003</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="祁山勋章">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='95' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='93' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='77' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='216' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='9.5' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='150' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='2' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='3' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.45' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1.0038'/>			
+			<item level='4' cK='1.0034'/>			
+			<item level='5' cK='1.0031'/>			
+			<item level='6' cK='1.0028'/>			
+			<item level='7' cK='1.0026'/>			
+			<item level='8' cK='1.0048'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12540" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='60' alpha="0"/>			
+			<make obj="12540" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16110" name='董卓' quality='3' type='0'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>8</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12511</spine>			
+			<spine>12202</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="太原勋章">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='61' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='67' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='79' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='2400' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='93' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='2' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.1' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0012' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='盾步兵' show='1' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='3' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='0.9992'/>			
+			<item level='5' cK='0.9973'/>			
+			<item level='6' cK='0.9936'/>			
+			<item level='7' cK='0.9937'/>			
+			<item level='8' cK='0.9907'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12511" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='57' alpha="0"/>			
+			<make obj="12511" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16111" name='吕布' quality='3' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>4</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12512</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="滇池勋章">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='78' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='71' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='88' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='700' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='215' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='1.25' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.5' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.45' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='0.998'/>			
+			<item level='6' cK='0.9946'/>			
+			<item level='7' cK='0.9951'/>			
+			<item level='8' cK='0.9926'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12512" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='81' alpha="0"/>			
+			<make obj="12512" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16112" name='张辽' quality='3' type='0'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>4</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12541</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="长安勋章">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='54' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='58' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='68' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='520' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='100' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='1.25' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.98' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='0.9982'/>			
+			<item level='6' cK='0.9945'/>			
+			<item level='7' cK='0.995'/>			
+			<item level='8' cK='0.9922'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12541" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='63' alpha="0"/>			
+			<make obj="12541" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16113" name='夏侯渊' quality='3' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>6</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12542</spine>			
+			<spine>112542</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="许都勋章">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='50' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='45' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='57' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='1200' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='7' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='75' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.7' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.1' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0012' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='3' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='0.9824'/>			
+			<item level='5' cK='0.9977'/>			
+			<item level='6' cK='0.9943'/>			
+			<item level='7' cK='0.9943'/>			
+			<item level='8' cK='0.9914'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12542" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='63' alpha="0"/>			
+			<make obj="12542" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16114" name='太史慈' quality='3' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>7</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12544</spine>			
+			<spine>15003</spine>			
+			<spine>12202</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="襄阳勋章">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='88' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='72' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='96' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='2970' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='2' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='45' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.3' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.1' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0012' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='轻步兵' show='1' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='0.9992'/>			
+			<item level='5' cK='0.9972'/>			
+			<item level='6' cK='0.9973'/>			
+			<item level='7' cK='0.9971'/>			
+			<item level='8' cK='0.997'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12544" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='56' alpha="0"/>			
+			<make obj="12544" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16115" name='胡车儿' quality='3' type='0'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>3</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12545</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="江陵勋章">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='84' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='95' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='79' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='400' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='160' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.2' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.98' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='0.9992'/>			
+			<item level='5' cK='0.9974'/>			
+			<item level='6' cK='0.997'/>			
+			<item level='7' cK='0.9973'/>			
+			<item level='8' cK='0.9975'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12545" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='50' alpha="0"/>			
+			<make obj="12545" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16116" name='许褚' quality='3' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>7</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12590</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="新野勋章">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='68' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='70' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='89' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='2610' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='509' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.8' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.1' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='3' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='0.9962'/>			
+			<item level='4' cK='0.9956'/>			
+			<item level='5' cK='0.9937'/>			
+			<item level='6' cK='0.99'/>			
+			<item level='7' cK='0.99'/>			
+			<item level='8' cK='0.987'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12590" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='62' alpha="0"/>			
+			<make obj="12590" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16117" name='陆逊' quality='3' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>5</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12603</spine>			
+			<spine>15003</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="庐江勋章">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='64' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='61' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='52' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='340' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='5.5' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='130' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='1' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.7' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.45' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='0.9979'/>			
+			<item level='6' cK='0.9963'/>			
+			<item level='7' cK='0.9966'/>			
+			<item level='8' cK='0.9939'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12603" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='56' alpha="0"/>			
+			<make obj="12603" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16118" name='郭嘉' quality='3' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>3</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12608</spine>			
+			<spine>15003</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="建业勋章">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='93' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='99' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='76' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='665' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='6' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='63' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='1' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.5' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.45' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='0.998'/>			
+			<item level='6' cK='0.9982'/>			
+			<item level='7' cK='0.9983'/>			
+			<item level='8' cK='0.9985'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12608" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='86' alpha="0"/>			
+			<make obj="12608" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16119" name='于吉' quality='3' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>5</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12662</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="高定勋章">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='71' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='87' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='63' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='1050' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='600' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='3' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.45' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0012' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='0.9992'/>			
+			<item level='5' cK='0.998'/>			
+			<item level='6' cK='0.9946'/>			
+			<item level='7' cK='0.9951'/>			
+			<item level='8' cK='0.9921'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12662" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='55' alpha="0"/>			
+			<make obj="12662" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16120" name='孟获' quality='3' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>6</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12672</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="南中勋章">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='65' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='60' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='88' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='2000' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='120' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.5' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.45' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='0.9992'/>			
+			<item level='5' cK='0.9972'/>			
+			<item level='6' cK='0.9937'/>			
+			<item level='7' cK='0.9937'/>			
+			<item level='8' cK='0.9907'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12672" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='55' alpha="0"/>			
+			<make obj="12672" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16121" name='祝融' quality='3' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>4</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12673</spine>			
+		</res>				
+		<unlock needTime="0" needHero="0" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,0;4,31001,0;4,31001,0;4,31001,0" needlv="-1" needMedal="白帝勋章">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='55' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='75' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='40' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='880' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='120' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='1.5' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.5' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.45' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='0.9976'/>			
+			<item level='6' cK='0.995'/>			
+			<item level='7' cK='0.9948'/>			
+			<item level='8' cK='0.9924'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12673" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='55' alpha="0"/>			
+			<make obj="12673" x='0' y='0'/>			
+		</preview>				
+	</item>					
+						
+	<item id="16206" name='长弓小队' quality='0' type='1'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>2</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12206</spine>			
+			<spine>15003</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="0" learn="50" force="0" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="1" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='52' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='5.5' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='50' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.3' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.45' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='3' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1.0066'/>			
+			<item level='4' cK='1.006'/>			
+			<item level='5' cK='1.0055'/>			
+			<item level='6' cK='1.005'/>			
+			<item level='7' cK='1.0091'/>			
+			<item level='8' cK='1.0083'/>			
+			<item level='9' cK='1.0114'/>			
+			<item level='10' cK='1.0104'/>			
+			<item level='11' cK='1.0126'/>			
+			<item level='12' cK='1.0115'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12206" x='-30' y='30' />			
+			<make fo="12206" x='0' y='0' />			
+			<make fo="12206" x='-30' y='-30' />			
+		</action>				
+		<preview>				
+			<circle r='55' alpha="0"/>			
+			<make obj="12206" x='-30' y='30'/>			
+			<make obj="12206" x='0' y='0'/>			
+			<make obj="12206" x='-30' y='-30'/>			
+		</preview>				
+	</item>					
+						
+	<item id="16209" name='步兵阵' quality='2' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>3</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12101</spine>			
+		</res>				
+		<unlock needTime="10800" needHero="2" trade="0" learn="120" force="0" food="0" money="0" needRes="6,31009,30;6,31010,15;6,31011,7;6,31012,4" needlv="10" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='32' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='32' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0.7' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='2.48' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='10' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1.0243'/>			
+			<item level='5' cK='1.0222'/>			
+			<item level='6' cK='1.0408'/>			
+			<item level='7' cK='1.0566'/>			
+			<item level='8' cK='1.0517'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12101" x='0' y='50' />			
+			<make fo="12101" x='50' y='50' />			
+			<make fo="12101" x='-50' y='50' />			
+			<make fo="12101" x='-50' y='0' />			
+			<make fo="12101" x='0' y='0' />			
+			<make fo="12101" x='-100' y='0' />			
+			<make fo="12101" x='50' y='0' />			
+			<make fo="12101" x='0' y='-50' />			
+			<make fo="12101" x='-50' y='-50' />			
+			<make fo="12101" x='50' y='-50' />			
+		</action>				
+		<preview>				
+			<circle r='55' alpha="0"/>			
+			<make obj="12101" x='0' y='50'/>			
+			<make obj="12101" x='50' y='50'/>			
+			<make obj="12101" x='-50' y='0'/>			
+			<make obj="12101" x='0' y='0'/>			
+			<make obj="12101" x='-100' y='0'/>			
+			<make obj="12101" x='50' y='0'/>			
+			<make obj="12101" x='0' y='-50'/>			
+			<make obj="12101" x='-50' y='-50'/>			
+			<make obj="12101" x='50' y='-50'/>			
+			<make obj="12101" x='50' y='-50'/>			
+		</preview>				
+	</item>					
+	<item id="16210" name='弓兵小队' quality='0' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>3</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12103</spine>			
+			<spine>15003</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="0" learn="50" force="0" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="7" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='125' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='5.5' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='41' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.2' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.1' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='2' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1.0147'/>			
+			<item level='5' cK='1.0135'/>			
+			<item level='6' cK='1.0123'/>			
+			<item level='7' cK='1.0224'/>			
+			<item level='8' cK='1.0309'/>			
+			<item level='9' cK='1.0377'/>			
+			<item level='10' cK='1.0431'/>			
+			<item level='11' cK='1.0472'/>			
+			<item level='12' cK='1.0503'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12103" x='0' y='30' />			
+			<make fo="12103" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='55' alpha="0"/>			
+			<make obj="12103" x='0' y='30'/>			
+			<make obj="12103" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16211" name='勇士小队' quality='0' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>5</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12201</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="0" learn="0" force="50" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="5" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='300' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='75' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.4' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.45' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='4' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='1'/>			
+			<item level='6' cK='0.9979'/>			
+			<item level='7' cK='0.9981'/>			
+			<item level='8' cK='0.9965'/>			
+			<item level='9' cK='0.9953'/>			
+			<item level='10' cK='0.9957'/>			
+			<item level='11' cK='0.9948'/>			
+			<item level='12' cK='0.9929'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12201" x='0' y='30' />			
+			<make fo="12201" x='-30' y='30' />			
+			<make fo="12201" x='0' y='0' />			
+			<make fo="12201" x='-30' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='57' alpha="0"/>			
+			<make obj="12201" x='0' y='30'/>			
+			<make obj="12201" x='-30' y='30'/>			
+			<make obj="12201" x='0' y='0'/>			
+			<make obj="12201" x='-30' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16212" name='巫师小队' quality='0' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>2</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12104</spine>			
+			<spine>15003</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="50" learn="0" force="0" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="8" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='43' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='2' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='80' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='1' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='2' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.98' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='3' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1.0196'/>			
+			<item level='4' cK='1.0178'/>			
+			<item level='5' cK='1.0163'/>			
+			<item level='6' cK='1.0149'/>			
+			<item level='7' cK='1.0273'/>			
+			<item level='8' cK='1.025'/>			
+			<item level='9' cK='1.034'/>			
+			<item level='10' cK='1.0416'/>			
+			<item level='11' cK='1.0476'/>			
+			<item level='12' cK='1.0434'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12104" x='-30' y='30' />			
+			<make fo="12104" x='0' y='0' />			
+			<make fo="12104" x='-30' y='-30' />			
+		</action>				
+		<preview>				
+			<circle r='50' alpha="0"/>			
+			<make obj="12104" x='-30' y='30'/>			
+			<make obj="12104" x='0' y='0'/>			
+			<make obj="12104" x='-30' y='-30'/>			
+		</preview>				
+	</item>					
+	<item id="16213" name='枪兵小队' quality='0' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>1</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12105</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="0" learn="0" force="50" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="9" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='32' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='32' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.98' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='4' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1.0243'/>			
+			<item level='5' cK='1.0222'/>			
+			<item level='6' cK='1.0408'/>			
+			<item level='7' cK='1.0566'/>			
+			<item level='8' cK='1.0517'/>			
+			<item level='9' cK='1.0634'/>			
+			<item level='10' cK='1.0724'/>			
+			<item level='11' cK='1.08'/>			
+			<item level='12' cK='1.0853'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12105" x='0' y='30' />			
+			<make fo="12105" x='-30' y='30' />			
+			<make fo="12105" x='0' y='0' />			
+			<make fo="12105" x='-30' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='50' alpha="0"/>			
+			<make obj="12105" x='0' y='30'/>			
+			<make obj="12105" x='-30' y='30'/>			
+			<make obj="12105" x='0' y='0'/>			
+			<make obj="12105" x='-30' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16214" name='盾步兵阵' quality='0' type='1'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>3</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12202</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="0" learn="80" force="0" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="1" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='52' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='32' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0.7' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='2.48' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='10' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='1'/>			
+			<item level='6' cK='1'/>			
+			<item level='7' cK='1'/>			
+			<item level='8' cK='1'/>			
+			<item level='9' cK='1'/>			
+			<item level='10' cK='1'/>			
+			<item level='11' cK='1'/>			
+			<item level='12' cK='1'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12202" x='0' y='50' />			
+			<make fo="12202" x='50' y='50' />			
+			<make fo="12202" x='-50' y='50' />			
+			<make fo="12202" x='-50' y='0' />			
+			<make fo="12202" x='0' y='0' />			
+			<make fo="12202" x='-100' y='0' />			
+			<make fo="12202" x='50' y='0' />			
+			<make fo="12202" x='0' y='-50' />			
+			<make fo="12202" x='-50' y='-50' />			
+			<make fo="12202" x='50' y='-50' />			
+		</action>				
+		<preview>				
+			<circle r='50' alpha="0"/>			
+			<make obj="12202" x='0' y='50'/>			
+			<make obj="12202" x='50' y='50'/>			
+			<make obj="12202" x='-50' y='50'/>			
+			<make obj="12202" x='-50' y='0'/>			
+			<make obj="12202" x='0' y='0'/>			
+			<make obj="12202" x='-100' y='0'/>			
+			<make obj="12202" x='50' y='0'/>			
+			<make obj="12202" x='0' y='-50'/>			
+			<make obj="12202" x='-50' y='-50'/>			
+			<make obj="12202" x='50' y='-50'/>			
+		</preview>				
+	</item>					
+	<item id="16215" name='重枪兵小队' quality='0' type='1'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>2</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12209</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="0" learn="0" force="50" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="1" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='90' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='58' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0.9' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.98' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1.2' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='3' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1.0095'/>			
+			<item level='5' cK='1.0086'/>			
+			<item level='6' cK='1.0158'/>			
+			<item level='7' cK='1.0144'/>			
+			<item level='8' cK='1.0198'/>			
+			<item level='9' cK='1.018'/>			
+			<item level='10' cK='1.0219'/>			
+			<item level='11' cK='1.02'/>			
+			<item level='12' cK='1.0181'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12209" x='-30' y='30' />			
+			<make fo="12209" x='0' y='0' />			
+			<make fo="12209" x='-30' y='-30' />			
+		</action>				
+		<preview>				
+			<circle r='50' alpha="0"/>			
+			<make obj="12209" x='-30' y='30'/>			
+			<make obj="12209" x='0' y='0'/>			
+			<make obj="12209" x='-30' y='-30'/>			
+		</preview>				
+	</item>					
+	<item id="16216" name='鬼兵大军' quality='0' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>5</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12210</spine>			
+			<spine>15003</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="50" learn="0" force="0" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="3" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='90' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='2' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='40' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.98' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='6' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1.0084'/>			
+			<item level='5' cK='1.0155'/>			
+			<item level='6' cK='1.0212'/>			
+			<item level='7' cK='1.0193'/>			
+			<item level='8' cK='1.0176'/>			
+			<item level='9' cK='1.016'/>			
+			<item level='10' cK='1.0195'/>			
+			<item level='11' cK='1.0222'/>			
+			<item level='12' cK='1.0202'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12210" x='0' y='30' />			
+			<make fo="12210" x='-30' y='30' />			
+			<make fo="12210" x='30' y='0' />			
+			<make fo="12210" x='0' y='0' />			
+			<make fo="12210" x='-30' y='-30' />			
+			<make fo="12210" x='0' y='-30' />			
+		</action>				
+		<preview>				
+			<circle r='50' alpha="0"/>			
+			<make obj="12210" x='0' y='30'/>			
+			<make obj="12210" x='-30' y='30'/>			
+			<make obj="12210" x='30' y='0'/>			
+			<make obj="12210" x='0' y='0'/>			
+			<make obj="12210" x='-30' y='-30'/>			
+			<make obj="12210" x='0' y='-30'/>			
+		</preview>				
+	</item>					
+	<item id="16217" name='烈焰小队' quality='1' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>9</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12311</spine>			
+			<spine>112311</spine>			
+		</res>				
+		<unlock needTime="7200" needHero="2" trade="120" learn="0" force="0" food="0" money="0" needRes="5,31005,45;5,31006,23;5,31007,13;5,31008,6" needlv="6" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='340' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='6.5' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='100' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.1' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.45' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='3' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='0.9979'/>			
+			<item level='6' cK='0.9963'/>			
+			<item level='7' cK='0.9966'/>			
+			<item level='8' cK='0.9939'/>			
+			<item level='9' cK='0.9917'/>			
+			<item level='10' cK='0.9924'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12311" x='-30' y='30' />			
+			<make fo="12311" x='0' y='0' />			
+			<make fo="12311" x='-30' y='-30' />			
+		</action>				
+		<preview>				
+			<circle r='50' alpha="0"/>			
+			<make obj="12311" x='-30' y='30'/>			
+			<make obj="12311" x='0' y='0'/>			
+			<make obj="12311" x='-30' y='-30'/>			
+		</preview>				
+	</item>					
+	<item id="16218" name='鬼兵阵' quality='0' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>3</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12321</spine>			
+			<spine>15003</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="50" learn="0" force="0" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="2" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='90' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='2' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='65' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.98' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='3' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1.0084'/>			
+			<item level='5' cK='1.0155'/>			
+			<item level='6' cK='1.0212'/>			
+			<item level='7' cK='1.0193'/>			
+			<item level='8' cK='1.0176'/>			
+			<item level='9' cK='1.016'/>			
+			<item level='10' cK='1.0195'/>			
+			<item level='11' cK='1.0222'/>			
+			<item level='12' cK='1.0202'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12321" x='-30' y='30' />			
+			<make fo="12321" x='0' y='0' />			
+			<make fo="12321" x='-30' y='-30' />			
+		</action>				
+		<preview>				
+			<circle r='50' alpha="0"/>			
+			<make obj="12321" x='-30' y='30'/>			
+			<make obj="12321" x='0' y='0'/>			
+			<make obj="12321" x='-30' y='-30'/>			
+		</preview>				
+	</item>					
+	<item id="16219" name='木牛流马' quality='2' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>6</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>12326</spine>			
+			<spine>15003</spine>			
+		</res>				
+		<unlock needTime="10800" needHero="2" trade="0" learn="180" force="0" food="0" money="0" needRes="6,31009,30;6,31010,15;6,31011,7;6,31012,4" needlv="11" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='1200' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='4.5' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='1300' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='2' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='5' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.1' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='0.9993'/>			
+			<item level='5' cK='0.9977'/>			
+			<item level='6' cK='0.9979'/>			
+			<item level='7' cK='0.9976'/>			
+			<item level='8' cK='0.9974'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="12326" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='50' alpha="0"/>			
+			<make obj="12326" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16301" name='剑雨' quality='0' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>3</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>14010</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="0" learn="50" force="0" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="5" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0' show='0' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='115' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='5' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0' show='0' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='0' show='0' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1.0072'/>			
+			<item level='4' cK='1.0066'/>			
+			<item level='5' cK='1.012'/>			
+			<item level='6' cK='1.0109'/>			
+			<item level='7' cK='1.01'/>			
+			<item level='8' cK='1.0045'/>			
+			<item level='9' cK='1.0041'/>			
+			<item level='10' cK='1.0075'/>			
+			<item level='11' cK='1.0102'/>			
+			<item level='12' cK='1.0062'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="14010" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='5' alpha="1"/>			
+		</preview>				
+	</item>					
+	<item id="16302" name='伏羲剑' quality='1' type='2'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>4</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>14007</spine>			
+		</res>				
+		<unlock needTime="7200" needHero="2" trade="0" learn="120" force="0" food="0" money="0" needRes="5,31005,45;5,31006,23;5,31007,13;5,31008,6" needlv="1" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0' show='0' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='325' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='3' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0' show='0' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='0' show='0' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1.0102'/>			
+			<item level='4' cK='1.0023'/>			
+			<item level='5' cK='1.0042'/>			
+			<item level='6' cK='0.998'/>			
+			<item level='7' cK='0.9982'/>			
+			<item level='8' cK='0.9952'/>			
+			<item level='9' cK='0.9942'/>			
+			<item level='10' cK='0.9934'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="14007" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='3' alpha="1"/>			
+		</preview>				
+	</item>					
+	<item id="16303" name='弹射战车' quality='2' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>6</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>13001</spine>			
+			<spine>113001</spine>			
+		</res>				
+		<unlock needTime="10800" needHero="2" trade="120" learn="0" force="0" food="0" money="0" needRes="6,31009,30;6,31010,15;6,31011,7;6,31012,4" needlv="3" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='1000' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='11.5' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='20' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0.3' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='40' show='1' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='4' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='1.0357'/>			
+			<item level='6' cK='1.0666'/>			
+			<item level='7' cK='1.0606'/>			
+			<item level='8' cK='1.0555'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="13001" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='31' alpha="0"/>			
+			<make obj="13001" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16304" name='弓兵营' quality='1' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>5</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>13003</spine>			
+			<spine>12103</spine>			
+			<spine>15003</spine>			
+		</res>				
+		<unlock needTime="7200" needHero="2" trade="0" learn="0" force="120" food="0" money="0" needRes="5,31005,45;5,31006,23;5,31007,13;5,31008,6" needlv="6" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='700' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0' show='0' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='0' show='0' icon='2' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0' show='0' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='35' show='1' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='4.9' show='1' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0' show='0' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='弓兵x1' show='1' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='0.998'/>			
+			<item level='6' cK='0.9946'/>			
+			<item level='7' cK='0.9951'/>			
+			<item level='8' cK='0.9926'/>			
+			<item level='9' cK='0.9913'/>			
+			<item level='10' cK='0.9908'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="13003" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='50' alpha="0"/>			
+			<make obj="13003" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16305" name='投石车' quality='0' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>6</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>13009</spine>			
+			<spine>113009</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="50" learn="0" force="0" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="2" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='1000' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='6' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='60' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0.8' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='40' show='1' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='1'/>			
+			<item level='6' cK='0.9964'/>			
+			<item level='7' cK='0.9967'/>			
+			<item level='8' cK='0.9941'/>			
+			<item level='9' cK='0.9946'/>			
+			<item level='10' cK='0.9939'/>			
+			<item level='11' cK='0.9933'/>			
+			<item level='12' cK='0.9909'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="13009" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='35' alpha="0"/>			
+			<make obj="13009" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16306" name='玄武塔' quality='1' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>5</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>13004</spine>			
+			<spine>15003</spine>			
+		</res>				
+		<unlock needTime="7200" needHero="2" trade="120" learn="0" force="0" food="0" money="0" needRes="5,31005,45;5,31006,23;5,31007,13;5,31008,6" needlv="8" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='1000' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='6.5' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='100' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='1.75' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.8' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='40' show='1' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='0.9985'/>			
+			<item level='6' cK='0.9954'/>			
+			<item level='7' cK='0.9964'/>			
+			<item level='8' cK='0.994'/>			
+			<item level='9' cK='0.9931'/>			
+			<item level='10' cK='0.9928'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="13004" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='95' alpha="0"/>			
+			<make obj="13004" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16307" name='冰凝术' quality='2' type='2'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>4</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>14003</spine>			
+		</res>				
+		<unlock needTime="10800" needHero="2" trade="0" learn="120" force="0" food="0" money="0" needRes="6,31009,30;6,31010,15;6,31011,7;6,31012,4" needlv="1" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0' show='0' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='0' show='0' icon='2' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='4' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0.2' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='5' show='1' icon='5' cP='0' cA='0' cB='0.3'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='0.5' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='1'/>			
+			<item level='6' cK='1'/>			
+			<item level='7' cK='1'/>			
+			<item level='8' cK='1'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="14003" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='4' alpha="1"/>			
+		</preview>				
+	</item>					
+	<item id="16308" name='轻步兵营' quality='1' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>3</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>13002</spine>			
+			<spine>12101</spine>			
+		</res>				
+		<unlock needTime="7200" needHero="2" trade="0" learn="0" force="120" food="0" money="0" needRes="5,31005,45;5,31006,23;5,31007,13;5,31008,6" needlv="8" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='240' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0' show='0' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='0' show='0' icon='2' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0' show='0' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='60' show='1' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='2.9' show='1' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0' show='0' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='轻步兵x1' show='1' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='1'/>			
+			<item level='6' cK='0.9974'/>			
+			<item level='7' cK='0.9976'/>			
+			<item level='8' cK='0.9935'/>			
+			<item level='9' cK='0.9941'/>			
+			<item level='10' cK='0.9928'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="13002" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='50' alpha="0"/>			
+			<make obj="13002" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16309" name='勇士营' quality='1' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>7</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>13007</spine>			
+			<spine>12201</spine>			
+		</res>				
+		<unlock needTime="7200" needHero="2" trade="0" learn="0" force="120" food="0" money="0" needRes="5,31005,45;5,31006,23;5,31007,13;5,31008,0" needlv="1" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='1000' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0' show='0' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='0' show='0' icon='2' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0' show='0' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='50' show='1' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='14' show='1' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0' show='0' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='勇士x2' show='1' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='0.9993'/>			
+			<item level='5' cK='0.9975'/>			
+			<item level='6' cK='0.9937'/>			
+			<item level='7' cK='0.9938'/>			
+			<item level='8' cK='0.9911'/>			
+			<item level='9' cK='0.9898'/>			
+			<item level='10' cK='0.9891'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="13007" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='50' alpha="0"/>			
+			<make obj="13007" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16310" name='龙炮' quality='1' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>5</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>13005</spine>			
+			<spine>15003</spine>			
+		</res>				
+		<unlock needTime="7200" needHero="2" trade="120" learn="0" force="0" food="0" money="0" needRes="5,31005,45;5,31006,23;5,31007,13;5,31008,6" needlv="10" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='800' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='6.5' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='20' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0.4' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='40' show='1' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='0.9983'/>			
+			<item level='6' cK='0.9948'/>			
+			<item level='7' cK='0.9953'/>			
+			<item level='8' cK='0.9915'/>			
+			<item level='9' cK='0.99'/>			
+			<item level='10' cK='0.9894'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="13005" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='50' alpha="0"/>			
+			<make obj="13005" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16311" name='巫师营' quality='1' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>4</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>13008</spine>			
+			<spine>12104</spine>			
+			<spine>15003</spine>			
+		</res>				
+		<unlock needTime="7200" needHero="2" trade="0" learn="120" force="0" food="0" money="0" needRes="5,31005,45;5,31006,23;5,31007,13;5,31008,6" needlv="10" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='600' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0' show='0' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='0' show='0' icon='2' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0' show='0' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='40' show='1' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='10' show='1' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0' show='0' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='巫师x2' show='1' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='0.9988'/>			
+			<item level='6' cK='0.9958'/>			
+			<item level='7' cK='0.9962'/>			
+			<item level='8' cK='0.9931'/>			
+			<item level='9' cK='0.9921'/>			
+			<item level='10' cK='0.9914'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="13008" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='50' alpha="0"/>			
+			<make obj="13008" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16312" name='箭塔' quality='0' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>4</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>13010</spine>			
+			<spine>15003</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="0" learn="50" force="0" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="7" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='420' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='6' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='61' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0.8' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='40' show='1' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='1'/>			
+			<item level='6' cK='0.9972'/>			
+			<item level='7' cK='0.9974'/>			
+			<item level='8' cK='0.9942'/>			
+			<item level='9' cK='0.9937'/>			
+			<item level='10' cK='0.9924'/>			
+			<item level='11' cK='0.9922'/>			
+			<item level='12' cK='0.9898'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="13010" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='50' alpha="0"/>			
+			<make obj="13010" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16313" name='重型投石车' quality='0' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>4</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>13011</spine>			
+			<spine>15003</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="0" learn="0" force="50" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="11" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='600' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='12' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='108' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='1.25' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='5' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='30' show='1' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='4' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='0.9988'/>			
+			<item level='6' cK='0.9958'/>			
+			<item level='7' cK='0.9962'/>			
+			<item level='8' cK='0.9931'/>			
+			<item level='9' cK='0.9921'/>			
+			<item level='10' cK='0.9914'/>			
+			<item level='11' cK='0.9903'/>			
+			<item level='12' cK='0.9882'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="13011" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='50' alpha="0"/>			
+			<make obj="13011" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16314" name='战鼓' quality='2' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>2</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>14001</spine>			
+		</res>				
+		<unlock needTime="10800" needHero="2" trade="0" learn="0" force="120" food="0" money="0" needRes="6,31009,30;6,31010,15;6,31011,7;6,31012,4" needlv="11" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0' show='0' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='0' show='0' icon='2' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='5' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0.2' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='6' show='1' icon='5' cP='0' cA='0' cB='0.5'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='0.5' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='1'/>			
+			<item level='6' cK='1'/>			
+			<item level='7' cK='1'/>			
+			<item level='8' cK='1'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="14001" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='5' alpha="1"/>			
+		</preview>				
+	</item>					
+	<item id="16315" name='地矛刺' quality='2' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>4</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>14002</spine>			
+		</res>				
+		<unlock needTime="10800" needHero="2" trade="0" learn="120" force="0" food="0" money="0" needRes="6,31009,30;6,31010,15;6,31011,7;6,31012,4" needlv="12" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0' show='0' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='45' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='3.5' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='10' show='1' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='1.0333'/>			
+			<item level='6' cK='1.0151'/>			
+			<item level='7' cK='1.0138'/>			
+			<item level='8' cK='1.0253'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="14002" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='3.5' alpha="1"/>			
+		</preview>				
+	</item>					
+	<item id="16316" name='奇兵' quality='2' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>4</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>14004</spine>			
+			<spine>12209</spine>			
+		</res>				
+		<unlock needTime="10800" needHero="2" trade="0" learn="0" force="120" food="0" money="0" needRes="6,31009,30;6,31010,15;6,31011,7;6,31012,4" needlv="9" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0' show='0' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='0' show='0' icon='2' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0' show='0' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0' show='0' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='重枪兵' show='1' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='0.1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='1'/>			
+			<item level='6' cK='1'/>			
+			<item level='7' cK='1'/>			
+			<item level='8' cK='1'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="14004" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='3' alpha="1"/>			
+		</preview>				
+	</item>					
+	<item id="16317" name='五雷轰顶' quality='2' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>6</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>14005</spine>			
+		</res>				
+		<unlock needTime="10800" needHero="2" trade="120" learn="0" force="0" food="0" money="0" needRes="6,31009,30;6,31010,15;6,31011,7;6,31012,4" needlv="12" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0' show='0' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='650' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='3.5' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0' show='0' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='0' show='0' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='0.9989'/>			
+			<item level='6' cK='0.9952'/>			
+			<item level='7' cK='0.9956'/>			
+			<item level='8' cK='0.9928'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="14005" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='3.5' alpha="1"/>			
+		</preview>				
+	</item>					
+	<item id="16318" name='火流星' quality='1' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>6</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>14008</spine>			
+		</res>				
+		<unlock needTime="7200" needHero="2" trade="0" learn="120" force="0" food="0" money="0" needRes="5,31005,45;5,31006,23;5,31007,13;5,31008,6" needlv="6" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0' show='0' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='700' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='2' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0' show='0' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='0' show='0' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='0.998'/>			
+			<item level='6' cK='0.9946'/>			
+			<item level='7' cK='0.9951'/>			
+			<item level='8' cK='0.9926'/>			
+			<item level='9' cK='0.9913'/>			
+			<item level='10' cK='0.9908'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="14008" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='2' alpha="1"/>			
+		</preview>				
+	</item>					
+	<item id="16319" name='落雷术' quality='0' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>2</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>14009</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="0" learn="50" force="0" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="5" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0' show='0' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='80' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='2.5' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0' show='0' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='0' show='0' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1.0095'/>			
+			<item level='5' cK='1.0173'/>			
+			<item level='6' cK='1.0158'/>			
+			<item level='7' cK='1.0144'/>			
+			<item level='8' cK='1.0198'/>			
+			<item level='9' cK='1.018'/>			
+			<item level='10' cK='1.0219'/>			
+			<item level='11' cK='1.02'/>			
+			<item level='12' cK='1.0181'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="14009" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='2.5' alpha="1"/>			
+		</preview>				
+	</item>					
+	<item id="16401" name='本方大本营' quality='0' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>0</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>15000</spine>			
+			<spine>115000</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="-1" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='2400' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='8' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='50' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='0' show='0' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='0.9727'/>			
+			<item level='3' cK='0.9421'/>			
+			<item level='4' cK='0.9092'/>			
+			<item level='5' cK='0.8812'/>			
+			<item level='6' cK='0.8571'/>			
+			<item level='7' cK='0.8301'/>			
+			<item level='8' cK='0.8059'/>			
+			<item level='9' cK='0.7794'/>			
+			<item level='10' cK='0.7765'/>			
+			<item level='11' cK='0.7754'/>			
+			<item level='12' cK='0.775'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="15000" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='70' alpha="0"/>			
+			<make obj="15000" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16402" name='敌方大本营' quality='0' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>0</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>15001</spine>			
+			<spine>115001</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="-1" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='2400' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='8' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='50' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='0' show='0' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='0.9727'/>			
+			<item level='3' cK='0.9421'/>			
+			<item level='4' cK='0.9092'/>			
+			<item level='5' cK='0.8812'/>			
+			<item level='6' cK='0.8571'/>			
+			<item level='7' cK='0.8301'/>			
+			<item level='8' cK='0.8059'/>			
+			<item level='9' cK='0.7794'/>			
+			<item level='10' cK='0.7765'/>			
+			<item level='11' cK='0.7754'/>			
+			<item level='12' cK='0.775'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="15001" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='70' alpha="0"/>			
+			<make obj="15001" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16403" name='防御塔' quality='0' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>0</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>15014</spine>			
+			<spine>115014</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="-1" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='1400' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='8.5' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='50' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0.8' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='0' show='0' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='0.9818'/>			
+			<item level='3' cK='0.9586'/>			
+			<item level='4' cK='0.9393'/>			
+			<item level='5' cK='0.9224'/>			
+			<item level='6' cK='0.901'/>			
+			<item level='7' cK='0.8813'/>			
+			<item level='8' cK='0.8631'/>			
+			<item level='9' cK='0.8455'/>			
+			<item level='10' cK='0.8452'/>			
+			<item level='11' cK='0.8419'/>			
+			<item level='12' cK='0.8392'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="15014" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='75' alpha="0"/>			
+			<make obj="15014" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16220" name='骑兵小队' quality='0' type='1'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>3</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>15020</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="50" learn="0" force="0" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="1" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='195' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='93' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.2' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.98' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1.5' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='2' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='1'/>			
+			<item level='6' cK='1'/>			
+			<item level='7' cK='1'/>			
+			<item level='8' cK='1'/>			
+			<item level='9' cK='1'/>			
+			<item level='10' cK='1'/>			
+			<item level='11' cK='1'/>			
+			<item level='12' cK='1'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="15020" x='0' y='0' />			
+			<make fo="15020" x='0' y='30' />			
+		</action>				
+		<preview>				
+			<circle r='60' alpha="0"/>			
+			<make obj="15020" x='0' y='0'/>			
+			<make obj="15020" x='0' y='30'/>			
+		</preview>				
+	</item>					
+	<item id="16221" name='象兵' quality='0' type='1'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>4</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>15021</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="0" learn="50" force="0" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="1" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='1500' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='150' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='2.5' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.1' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0012' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='2' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='1'/>			
+			<item level='6' cK='1'/>			
+			<item level='7' cK='1'/>			
+			<item level='8' cK='1'/>			
+			<item level='9' cK='1'/>			
+			<item level='10' cK='1'/>			
+			<item level='11' cK='1'/>			
+			<item level='12' cK='1'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="15021" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='65' alpha="0"/>			
+			<make obj="15021" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16222" name='虎豹骑' quality='0' type='1'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>4</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>15022</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="0" learn="0" force="50" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="4" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='600' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0.25' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='120' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.65' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='2.48' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0012' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='1'/>			
+			<item level='6' cK='1'/>			
+			<item level='7' cK='1'/>			
+			<item level='8' cK='1'/>			
+			<item level='9' cK='1'/>			
+			<item level='10' cK='1'/>			
+			<item level='11' cK='1'/>			
+			<item level='12' cK='1'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="15022" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='65' alpha="0"/>			
+			<make obj="15022" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16404" name='守护塔' quality='0' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>0</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>15016</spine>			
+			<spine>115016</spine>			
+		</res>				
+		<unlock needTime="3600" needHero="1" trade="0" learn="0" force="0" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="-1" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='1400' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='8.5' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='50' show='1' icon='2' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='0.8' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0013' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='0' show='0' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='0.9818'/>			
+			<item level='3' cK='0.9586'/>			
+			<item level='4' cK='0.9393'/>			
+			<item level='5' cK='0.9224'/>			
+			<item level='6' cK='0.901'/>			
+			<item level='7' cK='0.8813'/>			
+			<item level='8' cK='0.8631'/>			
+			<item level='9' cK='0.8455'/>			
+			<item level='10' cK='0.8452'/>			
+			<item level='11' cK='0.8419'/>			
+			<item level='12' cK='0.8392'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="15016" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='75' alpha="0"/>			
+			<make obj="15016" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16223" name='医师' quality='1' type='1'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>4</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>15023</spine>			
+			<spine>1315023</spine>			
+		</res>				
+		<unlock needTime="7200" needHero="2" trade="120" learn="0" force="0" food="0" money="0" needRes="4,31001,50;4,31002,20;4,31003,10;4,31004,5" needlv="1" needMedal="">				
+						
+						
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='150' show='1' icon='0' cP='0.1' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='5' show='1' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='0' show='0' icon='2' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='0' show='0' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1.75' show='1' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='1.1' show='1' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0021' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='1' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='1'/>			
+			<item level='6' cK='1'/>			
+			<item level='7' cK='1'/>			
+			<item level='8' cK='1'/>			
+			<item level='9' cK='1'/>			
+			<item level='10' cK='1'/>			
+		</levelinfo>				
+		<!-- action : 卡牌的作用 -->				
+		<action><!-- 生成的单位FightobgectID；x，y：相对于指针位置的像素偏移值 -->				
+			<make fo="15023" x='0' y='0' />			
+		</action>				
+		<!-- preview : 预放置操作 -->				
+		<preview><!-- circle放置圈，make预放置时的皮肤ID，x，y：相对于指针位置的像素偏移值 -->				
+			<circle r='50' alpha="0"/>			
+			<make obj="15023" x='0' y='0'/>			
+		</preview>				
+	</item>					
+	<item id="16320" name='化瘀术' quality='2' type='9'>					
+		<!-- cost : 生产速度 单位：秒 -->				
+		<cost>4</cost>				
+		<!-- useTimes : 可上场卡牌数 最多为2张 -->				
+		<useTimes>1</useTimes>				
+		<!-- useDealy : 放置延迟 最小为1.0秒 -->				
+		<useDealy>1.0</useDealy>				
+		<!-- 卡牌生成的单位及其技能所用到的 皮肤ID -->				
+		<res>				
+			<spine>14011</spine>			
+		</res>				
+		<unlock needTime="10800" needHero="2" trade="120" learn="0" force="0" food="0" money="0" needRes="6,31009,30;6,31010,15;6,31011,7;6,31012,4" needlv="4" needMedal="">				
+			<event type="10" data="0" />			
+			<event type="5" data="0,4,1,3,2,2,3,1" />			
+		</unlock>				
+		<levelinfo>				
+			<attribute type="trade" name="商才" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="learn" name="学识" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="force" name="体魄" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="hp" name="生命值" value='0' show='0' icon='0' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackRange" name="射程" value='0' show='0' icon='1' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackDamage" name="每次伤害" value='0' show='1' icon='2' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackSputterRange" name="攻击范围" value='3' show='1' icon='3' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackCD" name="攻击速度" value='1' show='0' icon='4' cP='0' cA='0' cB='0'/>			
+			<attribute type="lifetime" name="持续时间" value='0' show='0' icon='5' cP='0' cA='0' cB='0'/>			
+			<attribute type="moveSpeed" name="移动速度" value='0' show='0' icon='6' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnCD" name="造兵速度" value='0' show='0' icon='7' cP='0' cA='0' cB='0'/>			
+			<attribute type="attackTargetType" name="目标" value='0x0021' show='1' icon='8' cP='0' cA='0' cB='0'/>			
+			<attribute type="spawnId" name="制造兵种" value='0' show='0' icon='9' cP='0' cA='0' cB='0'/>			
+			<attribute type="waittime" name="部署时间" value='1' show='0' icon='10' cP='0' cA='0' cB='0'/>			
+			<attribute type="amount" name="数量" value='1' show='1' icon='11' cP='0' cA='0' cB='0'/>			
+			<item level='1' cK='1'/>			
+			<item level='2' cK='1'/>			
+			<item level='3' cK='1'/>			
+			<item level='4' cK='1'/>			
+			<item level='5' cK='1'/>			
+			<item level='6' cK='1'/>			
+			<item level='7' cK='1'/>			
+			<item level='8' cK='1'/>			
+		</levelinfo>				
+		<action>				
+			<make fo="14011" x='0' y='0' />			
+		</action>				
+		<preview>				
+			<circle r='3' alpha="1"/>			
+		</preview>				
+	</item>					
+						
+</Card>						
